@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Lord Somers Camp",
+    "bsb": "013006",
+    "account": "005387419",
+    "reference": "1812",
+    "currency": "AUD",
+    "amount": 3154.00,
+    "status": "UNPAID",
+    "dateInvoiced": "2017-04-26T20:20:50.996Z",
+    "datePaid": null
+  }
+]
