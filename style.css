@@ -1,0 +1,23 @@
+body {
+    font: 24px Helvetica;
+    background: #999999;
+}
+
+.main {
+  min-height: 800px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+}
+
+.content {
+  text-align: center;
+  margin: 5%;
+  padding: 30px;
+  border: 1px solid #cccc33;
+  border-radius: 7pt;
+  background: #dddd88;
+  flex: 3 1 60%;
+  order: 2;
+}
