@@ -1,5 +1,5 @@
-# CampJS IX
+# CampJS VIII
 
-http://ix.campjs.com
+http://viii.campjs.com
 
 [Get involved](https://github.com/campjs/campjs-next/issues)
