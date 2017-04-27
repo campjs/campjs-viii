@@ -9,7 +9,8 @@
     "currency": "AUD",
     "amount": 3154.00,
     "dateInvoiced": "2017-04-26T20:20:50.996Z",
-    "paid": false,
-    "datePaid": null
+    "paid": true,
+    "datePaid": "2017-04-27T03:38:27.830Z",
+    "receipt": "org/receipts/campjs_deposit.pdf"
   }
 ]
