@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "next",
-    "build": "next build && next export && rm -rf docs && cp -R out docs && cp CNAME docs/CNAME",
+    "build": "next build && next export && rm -rf docs && cp -R out docs && cp CNAME docs/CNAME && cp .nojekyll docs/.nojekyll",
     "start": "next start"
   },
   "dependencies": {
