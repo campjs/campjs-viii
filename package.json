@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export && rm -rf docs && cp -R out docs && cp CNAME docs/CNAME",
     "start": "next start"
   },
   "dependencies": {
