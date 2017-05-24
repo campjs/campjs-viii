@@ -12,9 +12,9 @@ export const posts = [
 ]
 
 export default () => (
-  <Wrapper title='News'>
+  <Wrapper title='News' linkOffset={1}>
     {posts.map((post, i) => (
-      <NavLink href={`news/${post.id}`}>{post.date} - {post.title}</NavLink>
+      <NavLink prefetch href={`/news/${post.id}`} key={i}>{i + 1}. {post.date} - {post.title}</NavLink>
     ))}
   </Wrapper>
 )
