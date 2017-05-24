@@ -30,14 +30,17 @@ class Wrapper extends Component {
     this.tabToNextLink = this.tabToNextLink.bind(this)
   }
   componentDidMount () {
+    const linkKey = this.props.linkOffset || 0
     const links = document.getElementsByTagName('a')
     this.setState({
-      links: links
+      links,
+      currentLink: linkKey
     })
-    links[0] && links[0].focus()
+    links[linkKey] && links[linkKey].focus()
   }
   goToLink (e) {
-    const linkNum = parseInt(e.key, 10) - 1
+    const offset = this.props.linkOffset || 0
+    const linkNum = parseInt(e.key, 10) - 1 + offset
     const link = this.state.links[linkNum]
     if (link) {
       link.focus()
@@ -76,7 +79,10 @@ class Wrapper extends Component {
   render () {
     const {
       children,
-      title
+      title,
+      backLink = '/',
+      backText = 'Back home',
+      css = {}
     } = this.props
     const handlers = {
       goToHome: goto('/'),
@@ -93,9 +99,10 @@ class Wrapper extends Component {
           css={{
             minHeight: '100vh',
             'a': {
-              opacity: 0.7
+              opacity: 0.7,
+              transition: '.2s all ease-in-out'
             },
-            'a:focus': {
+            'a:focus, a:hover': {
               opacity: 1
             }
           }}>
@@ -111,11 +118,13 @@ class Wrapper extends Component {
             {!title
               ? <Header />
               : <NavLink
+                prefetch
                 fontSize={1}
-                mb={5}
-                href='/'
+                mb={6}
+                data-skip-shortcut
+                href={backLink}
                 >
-                Go back
+                {backText}
               </NavLink>
             }
             <Text is='h1'
@@ -132,9 +141,13 @@ class Wrapper extends Component {
                 'a': {
                   borderBottom: title && '.125rem solid transparent'
                 },
-                'a:focus': {
+                'a:focus, a:hover': {
                   borderBottomColor: title && 'currentColor'
-                }
+                },
+                'p': {
+                  marginTop: '1.125em'
+                },
+                ...css
               }}
             >
               {children}
