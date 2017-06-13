@@ -23,16 +23,13 @@ class Talk extends Component {
     console.log('toggle');
   }
 
-  // render ({
-
-  //   ...props
-  // }) => (
   render () {
     const {
       title,
       speaker,
       profilePicture,
       twitter,
+      github,
       children,
       css = {}
     } = this.props
@@ -45,7 +42,7 @@ class Talk extends Component {
             bold>
             {title}
           </Text>
-          <Text is='h3'>{speaker} - <a href={`https://twitter.com/${twitter}`}>@{twitter}</a></Text>
+          <Text is='h3'>{speaker} - <a href={twitter ? `https://twitter.com/${twitter}` : `https://github.com/${github}`}>@{twitter || github}</a></Text>
           <Box is='a' onClick={this.toggleDetails}>{this.state.showDetails ? 'Less details >' : 'More details >'}</Box>
           <Box display={!this.state.showDetails && 'none'}>
             {children}
