@@ -127,6 +127,21 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Mark Dalgleish'
+      twitter='markdalgleish'
+      github='markdalgleish'
+      title='A Unified Styling Language'
+      profilePicture='https://pbs.twimg.com/profile_images/754886061872979968/BzaOWhs1_400x400.jpg'
+    >
+      <Text>
+        In the past few years, we’ve witnessed a massive increase in the amount of CSS experimentation, with ideas like CSS Modules and—most controversially—the rise of CSS-in-JS. But does mixing our styles and logic run counter to the original ideas of CSS? Does it break progressive enhancement?
+      </Text>
+      <Text>
+        In this talk, we’ll take an empathetic look at these new approaches, how they relate to the history of CSS, and why they might possibly hold the key to the future of CSS—all from the point-of-view of someone who has been writing CSS since 1999.
+      </Text>
+    </Talk>
+
+    <Talk
       speaker='Brendan Scarvell'
       twitter='menztrual'
       github='bscarvell'
