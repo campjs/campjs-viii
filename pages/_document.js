@@ -24,10 +24,10 @@ export default class MyDocument extends Document {
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <link rel='shortcut icon' href='/static/favicon.ico' />
-          <link href='https://unpkg.com/minimal.css' rel='stylesheet' />
+          <link href='/static/minimal.css' rel='stylesheet' />
           <style type='text/css' data-glamor>{this.props.css}</style>
           <link href='/static/font.css' rel='stylesheet' />
-          <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' />
+          <link href='/static/font-google.css' rel='stylesheet' />
         </Head>
         <body>
           <Main />
