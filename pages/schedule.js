@@ -306,7 +306,6 @@ export default () => (
       <Text is='p'>This is that talk.</Text>
 
       <Text is='p'>It’s taken Colin 17 years to learn these things through failures big and small. Now you can learn such classic mistakes as inappropriate layering, leaky abstractions, reimplementing perfectly valid frameworks because reasons, undervaluing the cost of development friction, and so much more. All this (probably, maybe) in just one session the length of which I did not bother to research. Yours to take away so you can laugh smugly at me when you fail to do so in your career*. Vote now but don't send any money.</Text>
-
     </Talk>
 
     <Talk
@@ -330,6 +329,39 @@ export default () => (
       </Text>
       <Text>
         - What’s category theory got to do with all of this.
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Christopher Biggs'
+      twitter='Unixbigot'
+      github='Unixbigot'
+      title='JavaScript Rules My Life'
+      profilePicture='https://pbs.twimg.com/profile_images/783931036052795392/WEBMqk0N_400x400.jpg'
+    >
+      <Text>
+        Using JavaScript for home and offfice automation with inexpensive IoT devices.
+      </Text>
+      <Text>
+        This presentation explains how to use the ESP8266 and ESP32 microcontollers, Mongoose OS, Amazon IoT and Amazon lambda to hook physical devices to your phone or to your slack channels.
+      </Text>
+      <Text>
+        Examples: voice control your lights.  Send slack alerts on events like kettle boiled or toast ready.  Make a visual "away board" that responds to slack status.  Build "traffic light" status monitors for your CI.
+      </Text>
+      <Text>
+        I will teach you how to get started with no soldering, 100% JavaScript, and as little as $10 of parts ($30 for a kickass setup).
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Sirani McNeill'
+      twitter='mcne65'
+      github='mcne65'
+      title='JavaScript Rocks - Do’s and Don’t!'
+      profilePicture='https://pbs.twimg.com/profile_images/866265838281572352/5rTQxWWX_400x400.jpg'
+    >
+      <Text>
+        Talk about the basics of Javascript before moving into the NodeJS/AngularJS about server scripting and how they can impact work life before DevOps actually starts working in. Discuss how marketing content can work here.
       </Text>
     </Talk>
 
