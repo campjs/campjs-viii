@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export && rm -rf docs && cp -R out docs && cp CNAME docs/CNAME && cp .nojekyll docs/.nojekyll",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axs": "^1.0.6",
+    "minimal.css": "^1.0.1",
+    "next": "beta",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-hotkeys": "^0.10.0",
+    "send": "^0.15.3"
+  }
+}
