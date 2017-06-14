@@ -1,6 +1,0 @@
-
-          window.__NEXT_REGISTER_PAGE('/', function() {
-            var comp = module.exports=webpackJsonp([7],{153:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=a(0),r=function(e){return e&&e.__esModule?e:{default:e}}(l),n=a(2);t.default=function(){return r.default.createElement(n.Wrapper,null,r.default.createElement(n.Box,{is:"nav",display:"flex",flexDirection:"column"},r.default.createElement(n.NavLink,{prefetch:!0,href:"/news"},"1. News"),r.default.createElement(n.NavLink,{prefetch:!0,href:"/about"},"2. About"),r.default.createElement(n.NavLink,{prefetch:!0,href:"/schedule"},"3. Schedule"),r.default.createElement(n.NavLink,{prefetch:!0,href:"/get-involved"},"4. Get involved"),r.default.createElement(n.NavLink,{prefetch:!0,href:"/call-for-speakers"},"5. Call for speakers"),r.default.createElement(n.NavLink,{href:"https://ti.to/campjs/campjs-viii"},"6. Tickets!")))}},380:function(e,t,a){e.exports=a(153)}},[380]);
-            return { page: comp.default }
-          })
-        

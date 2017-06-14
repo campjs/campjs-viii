@@ -9,7 +9,7 @@ import {
 export default () => (
   <Wrapper title='Schedule'>
     <Text>
-      More coming soon.
+      Subject to change. More coming soon.
     </Text>
     <NavLink mb={5} bold prefetch href={'/call-for-speakers'}>Submit a talk.</NavLink>
 
