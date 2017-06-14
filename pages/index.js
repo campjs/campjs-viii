@@ -15,8 +15,7 @@ export default () => (
       <NavLink prefetch href='/schedule'>3. Schedule</NavLink>
       <NavLink prefetch href='/get-involved'>4. Get involved</NavLink>
       <NavLink prefetch href='/call-for-speakers'>5. Call for speakers</NavLink>
-      <NavLink prefetch href='/code-of-conduct'>6. Code of conduct</NavLink>
-      <NavLink href='https://ti.to/campjs/campjs-viii'>7. Tickets!</NavLink>
+      <NavLink href='https://ti.to/campjs/campjs-viii'>6. Tickets!</NavLink>
     </Box>
   </Wrapper>
 )

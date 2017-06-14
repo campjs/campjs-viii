@@ -10,7 +10,6 @@
     "next": "beta",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-hotkeys": "^0.10.0",
-    "send": "^0.15.3"
+    "react-hotkeys": "^0.10.0"
   }
 }

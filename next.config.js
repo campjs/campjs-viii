@@ -7,8 +7,7 @@ module.exports = {
       '/about': { page: '/about' },
       '/schedule': { page: '/schedule' },
       '/get-involved': { page: '/get-involved' },
-      '/call-for-speakers': { page: '/call-for-speakers' },
-      '/code-of-conduct': { page: '/code-of-conduct' }
+      '/call-for-speakers': { page: '/call-for-speakers' }
     }
   }
 }
