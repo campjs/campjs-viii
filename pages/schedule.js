@@ -40,6 +40,7 @@ export default () => (
       twitter='theRealDevgeeks'
       title='It’s Been Too Long Since You Last Looked At PhoneGap'
       profilePicture='https://avatars2.githubusercontent.com/u/554999?v=3&s=460'
+      sponsor='adobe.com'
     >
       <Text>
         “I tried it once, it was just too slow”. It’s a refrain I hear too often, but in the fast paced world of development (especially JavaScript) when was the last time that something was still the same as it was years ago? PhoneGap and Cordova are no exception. With the proliferation of faster hardware, better and more up to date webviews, and cutting edge JS frameworks... Hybrid App Development could be the solution you need. Between the rapid development cycle, the benefit of using existing web domain knowledge, a path to publishing PWAs for platforms that support it, and the potential for a large amount of shared code... isn’t it time you gave it another look?
@@ -50,7 +51,7 @@ export default () => (
       speaker='Marcos Caceres'
       twitter='marcosc'
       github='marcoscaceres'
-      title='Money Money Money. Moneeeey!💸'
+      title='Using the Web Payments API'
       profilePicture='https://pbs.twimg.com/profile_images/840576690946433024/2PP_TLIJ_400x400.jpg'
       >
         <Text>
@@ -243,6 +244,17 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Glen Maddern'
+      twitter='glenmaddern'
+      title='Styled Components Informal Workshop'
+      profilePicture='https://avatars0.githubusercontent.com/u/23264?v=3&s=460'
+    >
+      <Text>If you're interested in Styled Components or CSS-in-JS in general Glen will be answering questions and demonstrating techniques to solve common problems. You're welcome to ask for feedback or advice on your own projects if you like, or simply listen to the discussion & follow along the examples.</Text>
+      <Text>Drop in and out. No fixed program.</Text>
+    </Talk>
+
+
+    <Talk
       speaker='Josh Wulf'
       twitter='sitapati'
       github='jwulf'
@@ -329,15 +341,16 @@ export default () => (
       github='Bachstatter'
       title='What we’ve learned and can learn from functional programming'
       profilePicture='https://pbs.twimg.com/profile_images/686116338461310976/G6eqk-V7_400x400.jpg'
+      sponsor='https://small.mu'
     >
       <Text>
         I plan to  start off by going over some functional patterns that are popular in the javascript community. Examples include pure functions and immutabillty.
       </Text>
       <Text>
-        After that I will be taking a deep dive in some  patterns thats not popular in javascript but heavily used in functional programming. The focus will be on abstract data types (ADT) . What they are, how to use them and maybe most important,  why to use them.
+        After that I will be taking a deep dive in some patterns that's not popular in javascript but heavily used in functional programming. Topics include the power of curry, composing all the things and abstract data types (ADT).
       </Text>
       <Text>
-        -  I will talk about a simple box, Maybe, Either and Task.
+        - I will talk about a simple box, Maybe, Either and Task.
       </Text>
       <Text>
         - How the laws of composition can help us or our tools optimize code.
@@ -384,38 +397,14 @@ export default () => (
       speaker='Isabell Kiral-Kornek'
       twitter='isa_kiko'
       github='isakiko'
-      title='Visualizing Data Using D3'
+      title='Workshop: Visualizing Data Using D3'
       profilePicture='https://avatars1.githubusercontent.com/u/6100885?v=3&s=460'
     >
       <Text>
         Open science should be visible science. And what better way to make your research visible and accessible than putting it on the internet. But no one wants to read endless tables of data. We’d rather look at graphs, or, even better, have the possibility of interacting with the data. And we have probably all created some graphs. But in order to make them accessible to many people, we will have to move away from our specialized software to a more universal platform - the internet.
       </Text>
       <Text>
-        We want to: Display our data on a website to increase visibility and accessibility of our research. Our goal is to create a dynamic bubble plot (a prettier version of a scatter plot) and publish it on the internet.
-      </Text>
-      <Text>
-        Along the way, we will learn:
-      </Text>
-      <Text>
-        how to create our first own web page
-      </Text>
-      <Text>
-        how to change the appearance of certain elements on the page
-      </Text>
-      <Text>
-        how to integrate graphical elements into our page
-      </Text>
-      <Text>
-        how to publish our page
-      </Text>
-      <Text>
-        how to allow interaction with elements
-      </Text>
-      <Text>
-        how to store data for the use in webpages
-      </Text>
-      <Text>
-        how to create a graph in D3
+        We want to display our data on a website to increase visibility and accessibility of our research. Our goal is to create a dynamic bubble plot (a prettier version of a scatter plot) and publish it on the internet.
       </Text>
     </Talk>
 
@@ -423,11 +412,24 @@ export default () => (
       speaker='Robert Kerr'
       twitter='robrkerr'
       github='robrkerr'
-      title='3D Animation with ThreeJS Workshop'
+      title='Workshop: 3D Animation with ThreeJS'
       profilePicture='https://avatars3.githubusercontent.com/u/478084?v=3&s=460'
+      sponsor='https://seermedical.com/'
     >
       <Text>
-        Three.js allows you to create and display animated 3D graphics in a web browser, adding not just another spatial, but also a temporal dimension. Three.js ia a JavaScript library, which is good, because every browser can interpret our JavaScript code. It interacts with WebGL, which is the browser’s way to interact with the user’s graphics card
+        Three.js allows you to create and display animated 3D graphics in a web browser, adding not just another spatial, but also a temporal dimension. Three.js is a JavaScript library, which is good, because every browser can interpret our JavaScript code. It interacts with WebGL, which is the browser’s way to interact with the user’s graphics card
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Alex Dickson'
+      twitter='alexdickson'
+      github='alexanderdickson'
+      title='Probably Something Graphical/Niche Cool or Hardware Envelope Pushing'
+      profilePicture='https://pbs.twimg.com/profile_images/468972557526253568/N2bb2YCh_400x400.jpeg'
+    >
+      <Text>
+        ??? Who knows ???
       </Text>
     </Talk>
 
