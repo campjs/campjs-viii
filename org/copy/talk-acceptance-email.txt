@@ -1,0 +1,15 @@
+Hello,
+
+Congratulations and thank you, your proposal has been accepted at CampJS.
+
+I've published a preliminary list of talks/workshops. At your earliest convenience could you please review your talk. https://campjs-next-sehcflvhsj.now.sh/schedule
+
+If there are any changes you'd like to make, please let me know.
+
+I'm hoping to publish this very soon so I can make a push for more international speakers and sponsorship. I can always change it after release too so don't panic if I didn't wait for you.
+
+If your company is paying for your ticket & travel to give your talk/workshop, please let me know as I'd love to list them as a sponsor.
+
+If you need help to make it to CampJS to give your talk/workshop please also let me know so we can try to work something out.
+
+Thank you.
