@@ -364,12 +364,9 @@ export default () => (
       speaker='Christopher Biggs'
       twitter='Unixbigot'
       github='Unixbigot'
-      title='JavaScript Rules My Life'
+      title='Javascript Rules my Life - Building IoT devices with JS'
       profilePicture='https://pbs.twimg.com/profile_images/783931036052795392/WEBMqk0N_400x400.jpg'
     >
-      <Text>
-        Using JavaScript for home and offfice automation with inexpensive IoT devices.
-      </Text>
       <Text>
         This presentation explains how to use the ESP8266 and ESP32 microcontollers, Mongoose OS, Amazon IoT and Amazon lambda to hook physical devices to your phone or to your slack channels.
       </Text>
