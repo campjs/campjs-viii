@@ -25,17 +25,6 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Charlie Gerard'
-      twitter='devdevcharlie'
-      title='When the web gets physical - Web bluetooth in the browser'
-      profilePicture='https://pbs.twimg.com/profile_images/440808125721870336/34QLtMdA_400x400.jpeg'
-      >
-        <Text>
-          Connecting devices to the web has become possible with technologies like Node.js. From blinking an LED to building a smart mirror, the possibilities are endless; but something new has come! With the release of the Web Bluetooth API, BLE devices can now be connected to a browser with a simple click! This talk will take you through my journey of creating a framework to interact with the Myo armband in the browser using this brand new and shiny Web API.
-        </Text>
-    </Talk>
-
-    <Talk
       speaker='Tommy-Carlos Williams'
       twitter='theRealDevgeeks'
       title='It’s Been Too Long Since You Last Looked At PhoneGap'
@@ -139,18 +128,6 @@ export default () => (
       </Text>
       <Text>
         In this talk, we’ll take an empathetic look at these new approaches, how they relate to the history of CSS, and why they might possibly hold the key to the future of CSS—all from the point-of-view of someone who has been writing CSS since 1999.
-      </Text>
-    </Talk>
-
-    <Talk
-      speaker='Brendan Scarvell'
-      twitter='menztrual'
-      github='bscarvell'
-      title='JavaScript Security Workshop'
-      profilePicture='https://pbs.twimg.com/profile_images/841927036188950528/V4UIKU1L_400x400.jpg'
-    >
-      <Text>
-        The JavaScript Security Workshop will provide security awareness for range of vulnerabilities commonly found in both client and server side JavaScript applications. A hands on exercise will allow you to practice your newly honed hacking skills against vulnerable applications.
       </Text>
     </Talk>
 
@@ -303,6 +280,39 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Luke John'
+      twitter='luke__john'
+      github='luke-john'
+      title='Glamorous: The Beauty And Elegance Your Codebase Deserves'
+      profilePicture='https://pbs.twimg.com/profile_images/633068226704838656/PsFUXh3P_400x400.jpg'
+    >
+      <Text>
+        It's lovely making things beautiful, styles are no exception.  It's also great to make things beautiful in an elegant way.
+      </Text>
+      <Text>
+        Traditional styling patterns and frameworks require context switching when writing styles for components. They make it hard to share logic between your applications content/structure and styles. You are also required to setup build configuration or use client side parsers which add complexity and performance concerns to your codebase.
+      </Text>
+      <Text>
+        Glamorous has an elegant api that allows you to write style components that follow react patterns, are easy to test and don’t require extensive configuration or expensive parsers. It allows you to write your application styles in the same language, using the same patterns as the rest of your code base.
+      </Text>
+      <Text>
+        This talk covers the what and why of glamorous, how it helps you write beautiful code and elegantly structured applications and why it's a great css-in-js community to contribute to.
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Josh Gillies'
+      twitter='joshgillies'
+      github='joshgillies'
+      title='Framework Agnostic Frontend Components'
+      profilePicture='https://pbs.twimg.com/profile_images/586905623486300162/c_wt9mKz_400x400.jpg'
+    >
+      <Text>
+        Truely portable frontend components, the holy grail of frontend development.
+      </Text>
+    </Talk>
+
+    <Talk
       speaker='Brendan Graetz'
       twitter='bguiz'
       github='bguiz'
@@ -332,7 +342,9 @@ export default () => (
 
       <Text is='p'>This is that talk.</Text>
 
-      <Text is='p'>It’s taken Colin 17 years to learn these things through failures big and small. Now you can learn such classic mistakes as inappropriate layering, leaky abstractions, reimplementing perfectly valid frameworks because reasons, undervaluing the cost of development friction, and so much more. All this (probably, maybe) in just one session the length of which I did not bother to research. Yours to take away so you can laugh smugly at me when you fail to do so in your career*. Vote now but don't send any money.</Text>
+      <Text is='p'>
+        It’s taken Colin 17 years to learn these things through failures big and small. Now you can learn such classic mistakes as inappropriate layering, leaky abstractions, reimplementing perfectly valid frameworks because reasons, undervaluing the cost of development friction, and so much more. All this (probably, maybe) in just one session the length of which I did not bother to research. Yours to take away so you can laugh smugly at me when you fail to do so in your career*.
+      </Text>
     </Talk>
 
     <Talk
