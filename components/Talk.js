@@ -35,7 +35,7 @@ class Talk extends Component {
     } = this.props
     return (
       <Box mb={5} css={{display: 'flex'}}>
-        <Box is='img' src={profilePicture} css={{width: '20%', height: '20%', margin: '0.5em'}}/>
+        <Box is='img' src={twitter ? `/static/profiles/${twitter}.png` : `/static/profiles/${github}.png`} css={{width: '20%', height: '20%', margin: '0.5em'}}/>
         <Box>
           <Text is='h2'
             fontSize={1}
