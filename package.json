@@ -11,8 +11,8 @@
     "campjs"
   ],
   "author": {
-    "name" : "Glen Arrowsmith",
-    "email" : "glen.arrowsmith@gmail.com"
+    "name": "Glen Arrowsmith",
+    "email": "glen.arrowsmith@gmail.com"
   },
   "license": "ISC",
   "bugs": {
@@ -29,8 +29,9 @@
   },
   "dependencies": {
     "axs": "^1.0.6",
+    "babel-runtime": "^6.23.0",
     "minimal.css": "^1.0.1",
-    "next": "beta",
+    "next": "^2.4.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-hotkeys": "^0.10.0",
