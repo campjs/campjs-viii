@@ -1,4 +1,27 @@
 {
+  "name": "campjs",
+  "description": "The CampJS website http://viii.campjs.com",
+  "version": "8.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campjs/campjs-next.git"
+  },
+  "keywords": [
+    "campjs"
+  ],
+  "author": {
+    "name" : "Glen Arrowsmith",
+    "email" : "glen.arrowsmith@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/campjs/campjs-next/issues"
+  },
+  "homepage": "http://viii.campjs.com",
+  "bin": {
+    "campjs": "./cli.js"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build && next export && rm -rf docs && cp -R out docs && cp CNAME docs/CNAME && cp .nojekyll docs/.nojekyll",

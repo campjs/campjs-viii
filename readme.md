@@ -1,21 +1,30 @@
 # CampJS VIII
 
+
 http://viii.campjs.com
 
-[Get involved](https://github.com/campjs/campjs-next/issues)
+For an offline version of the website install it globally
 
-## Website Contributions
+```
+npm install -g campjs
+campjs
+```
+Then open http://localhost:3000
+
+
+## Contribute
 
 To run the development server:
 ```
+git clone git@github.com:campjs/campjs-next.git
+cd campjs-next
 npm install
 npm run dev
 ```
 
-To build:
+We use Github pages which is configured to look in the `docs` directory for the static site.
+
+Before submitting a pull request, please build the site.
 ```
 npm run build
 ```
-The static build is copied into the `docs` directory.
-
-Github pages is configured to look in the `docs` directory for the static site.
