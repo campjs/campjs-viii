@@ -1,7 +1,7 @@
 {
   "name": "campjs",
   "description": "The CampJS website http://viii.campjs.com",
-  "version": "8.0.2",
+  "version": "8.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/campjs/campjs-next.git"
