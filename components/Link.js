@@ -31,13 +31,7 @@ const Link = ({
   prefetch,
   ...props
 }) => (
-  href.startsWith('http')
-    ? <A {...props} href={href} />
-    : (
-      <NextLink {...props} href={href} prefetch={prefetch}>
-        <A {...props} href={href} />
-      </NextLink>
-    )
+  <A {...props} href={href} />
 )
 
 export default Link

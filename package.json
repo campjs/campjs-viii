@@ -33,7 +33,7 @@
     "axs": "^1.0.6",
     "babel": "^6.23.0",
     "minimal.css": "^1.0.1",
-    "next": "^2.4.4",
+    "next": "beta",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-hotkeys": "^0.10.0",
