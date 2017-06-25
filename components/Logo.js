@@ -39,7 +39,7 @@ const Logo = () => (
         )).join(',')
       }
     }}>
-    <Box fontSize='2.5rem' pt={6}>CampJS</Box>
+    <Box fontSize='2.5rem' pt={6}>CAMPJS</Box>
     <Box fontSize='5.125rem'>VIII</Box>
   </Text>
 )
