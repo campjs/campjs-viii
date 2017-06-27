@@ -12,8 +12,8 @@ import {
 const keyMap = {
   goToHome: ['esc'],
   goToLink: [...Array(20).keys()].map(n => n.toString()),
-  tabToPrevLink: 'up',
-  tabToNextLink: 'down'
+  tabToPrevLink: ['up', 'k'],
+  tabToNextLink: ['down', 'j']
 }
 
 const goto = (url) => () => Router.push(url)
