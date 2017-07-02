@@ -19,9 +19,9 @@ export default () => (
       title='Styled Components and the Road to Unification'
       profilePicture='https://avatars0.githubusercontent.com/u/23264?v=3&s=460'
     >
-      <Text is='p'>It seems inevitable. As we’ve moved to a more component-centric UI architecture, we’ve moved our JS and HTML and CSS closer and closer together. Surely they’ll eventually end up all in a single file, right?</Text>
-      <Text is='p'>Not long ago, this idea was unthinkable—our units of composition were too large and divided along language boundaries. But things are changing.</Text>
-      <Text is='p'>This is a talk about the dream of a unified development language for components, and the progress one library, Styled Components, has made towards that goal.</Text>
+      <Text>It seems inevitable. As we’ve moved to a more component-centric UI architecture, we’ve moved our JS and HTML and CSS closer and closer together. Surely they’ll eventually end up all in a single file, right?</Text>
+      <Text>Not long ago, this idea was unthinkable—our units of composition were too large and divided along language boundaries. But things are changing.</Text>
+      <Text>This is a talk about the dream of a unified development language for components, and the progress one library, Styled Components, has made towards that goal.</Text>
     </Talk>
 
     <Talk
@@ -63,10 +63,20 @@ export default () => (
       title='How to be a happy developer'
       profilePicture='https://pbs.twimg.com/profile_images/445091827310284800/bWZU2x8c_400x400.png'
       >
-        <Text is='p'>Some of you may wonder why this is even a talk title, because solving problems is fun, right? _Right_.</Text>
-        <Text is='p'>Others however, may be more like me, a bundle of insecurity who puts immense pressure on oneself and struggles with the physical manifestation of anxiety and the mostly self inflicted stress in relation to work, life and almost everything. </Text>
-        <Text is='p'>This is the tale of my first year as a developer and will outline some strategies for dealing with anxiety and juggling life and our work (which lets face it, is all consuming).</Text>
-      </Talk>
+        <Text>Some of you may wonder why this is even a talk title, because solving problems is fun, right? _Right_.</Text>
+        <Text>Others however, may be more like me, a bundle of insecurity who puts immense pressure on oneself and struggles with the physical manifestation of anxiety and the mostly self inflicted stress in relation to work, life and almost everything. </Text>
+        <Text>This is the tale of my first year as a developer and will outline some strategies for dealing with anxiety and juggling life and our work (which lets face it, is all consuming).</Text>
+    </Talk>
+
+    <Talk
+      speaker='James Kyle'
+      twitter='thejameskyle'
+      github='thejameskyle'
+      title='How to build a type checker'
+      profilePicture='https://pbs.twimg.com/profile_images/879650512689184768/joE91luO_400x400.jpg'
+      >
+        <Text>Types are everywhere, strings, booleans, numbers, objects, every value and expression in your code has a type. In JavaScript, we never really see these types until something has gone wrong. But new type checkers like Flow or TypeScript bring them front and center, letting you write these types and see things going wrong earlier on. But how do they do it? Well, we're going to build a super tiny type checker together and see exactly how they work. It's much simpler than you might think and you'll learn about all sorts of data structures and patterns along the way.</Text>
+    </Talk>
 
     <Talk
       speaker='Dominik Dumaine'
@@ -174,11 +184,9 @@ export default () => (
       title='Mad science with Electron'
       profilePicture='https://pbs.twimg.com/profile_images/378800000648266061/4998a0fdebe3ff5d8425862ca3bbbe1b_400x400.jpeg'
     >
-      <Text is='p'>What do you think Electron can do? Atom text editor? Slack chat? Hyper Terminal? More than that.</Text>
-
-      <Text is='p'>In my talk, I will go from my experience for building a production ready commercial desktop application to useful command line tool to mind blow mad science p2p live video chat(not unlike PipeChat in Silicon Valley).</Text>
-
-      <Text is='p'>It will cover:</Text>
+      <Text>What do you think Electron can do? Atom text editor? Slack chat? Hyper Terminal? More than that.</Text>
+      <Text>In my talk, I will go from my experience for building a production ready commercial desktop application to useful command line tool to mind blow mad science p2p live video chat(not unlike PipeChat in Silicon Valley).</Text>
+      <Text>It will cover:</Text>
       <Box>* basic feature of using Electron build user interface(alone with a native Golang binary file running inside the app)</Box>
       <Box>* as a headless browser to build command line too</Box>
       <Box>* hidden browser only feature that could be "abused" from a hardware device like Raspberry Pi</Box>
@@ -306,9 +314,16 @@ export default () => (
       github='joshgillies'
       title='Framework Agnostic Frontend Components'
       profilePicture='https://pbs.twimg.com/profile_images/586905623486300162/c_wt9mKz_400x400.jpg'
+      sponsor='iflix'
     >
       <Text>
-        Truely portable frontend components, the holy grail of frontend development.
+        Lets face it, frameworks lead to lock in. Every project eventually reaches a point where the original requirements that drove you to chose that specific UI framework have now changed, and now your only option is to start again from scratch.
+      </Text>
+      <Text>
+        As a thought experiment, what if developing against UI frameworks didn't result in framework lock-in, what if the components that comprised your UI were agnostic to the framework that managed them, and what if adopting a new UI framework didn't result in a complete ground up rewrite? What would that mean for you as a developer? In this talk I'll explore UI components from the ground up, and what it means to develop truely portable UI components.
+      </Text>
+      <Text>
+        Spoiler: this isn't a WebComponents/CustomElements talk.
       </Text>
     </Talk>
 
@@ -319,17 +334,31 @@ export default () => (
       title='Jest for API servers'
       profilePicture='https://pbs.twimg.com/profile_images/484493905845444608/sTWF1Uz7_400x400.png'
     >
-      <Text is='p'>Having built an API server in NodeJs, and testing it using mocha+chai+sinon, we migrated the tests over to Jest. There were several hard-won lessons along the way, which requires one to change the way they approach writing tests. Some of the paradigms involved are:</Text>
+      <Text>Having built an API server in NodeJs, and testing it using mocha+chai+sinon, we migrated the tests over to Jest. There were several hard-won lessons along the way, which requires one to change the way they approach writing tests. Some of the paradigms involved are:</Text>
       <Box>1. Framework vs library</Box>
       <Box>2. DRY vs DAMP</Box>
       <Box>3. snapshotting</Box>
       <Box>4. chained APIs</Box>
       <Box>5. warping test time</Box>
-      <Text is='p'>Who this talk is for:</Text>
+      <Text>Who this talk is for:</Text>
       <Box>1. Jest was developed by FB, and they primarily use it to test in-browser Javascript, and is engineered tightly to work with ReactJs (also developed by FB). That being said, Jest is on its own a very versatile test framework. This talk is for those who would like a perspective of the more "general" use case for Jest.</Box>
       <Box>2. Jest is also the new kid on the block, with mocha and other test frameworks having been around for much longer. This talk is for those who are using one of these other test frameworks on their existing projects, and considering switching to Jest.</Box>
     </Talk>
 
+    <Talk
+      speaker='Mikey Williams'
+      twitter='ahdinosaur'
+      github='ahdinosaur'
+      title='luddite.js'
+      profilePicture='https://avatars2.githubusercontent.com/u/719605?v=3&s=460'
+    >
+      <Text>
+        Fellow JavaScript lovers. I wish to talk with you about the recent surge of complexity: ES2015 and beyond. forces among us wish to no longer share minimal primitives that allow us to each explore higher level patterns in vibrant module ecosystems. rather, in exchange for the sweet syntactic sugar of progress, our masters at TC39 have forced you to accept their high-level opinions as your core abstractions.
+      </Text>
+      <Text>
+        If you wish to go on an adventure, I offer an alternative where systems are easily composed using only the simple abstractions of functions and objects. i'll go over common higher-level abstractions and show alternatives to popular trends using only these minimal primitives. i'll also a share two personal stories about doing this in practice, one of great success and one of terrible failure. :)
+      </Text>
+    </Talk>
 
     <Talk
       speaker='Colin Scott'
@@ -338,11 +367,9 @@ export default () => (
       title='Random Failures of Architecture I Have Committed'
       profilePicture='https://pbs.twimg.com/profile_images/3023199712/d010574bc090a7510f54ccfca7c26e44_400x400.jpeg'
     >
-      <Text is='p'>Everyone loves to talk themselves up in conference presentations, regaling you with tales of their technical brilliance. Sure these talks can be filled with valuable information about the latest technologies, but have you ever stopped to consider how it makes you, the audience, feel? After you’ve spent the weekend hearing about reactively programmed event sourced games running in the cloud isn’t hard to go back to writing CRUD forms using ASP.NET WebForms 3.5 against an Access DB? Don’t you want someone to stand up and tell you all the ways they've screwed up so you can feel better about the code that awaits you on Monday?</Text>
-
-      <Text is='p'>This is that talk.</Text>
-
-      <Text is='p'>
+      <Text>Everyone loves to talk themselves up in conference presentations, regaling you with tales of their technical brilliance. Sure these talks can be filled with valuable information about the latest technologies, but have you ever stopped to consider how it makes you, the audience, feel? After you’ve spent the weekend hearing about reactively programmed event sourced games running in the cloud isn’t hard to go back to writing CRUD forms using ASP.NET WebForms 3.5 against an Access DB? Don’t you want someone to stand up and tell you all the ways they've screwed up so you can feel better about the code that awaits you on Monday?</Text>
+      <Text>This is that talk.</Text>
+      <Text>
         It’s taken Colin 17 years to learn these things through failures big and small. Now you can learn such classic mistakes as inappropriate layering, leaky abstractions, reimplementing perfectly valid frameworks because reasons, undervaluing the cost of development friction, and so much more. All this (probably, maybe) in just one session the length of which I did not bother to research. Yours to take away so you can laugh smugly at me when you fail to do so in your career*.
       </Text>
     </Talk>
@@ -391,6 +418,24 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Josh Johnston'
+      twitter='joshwnj'
+      github='joshwnj'
+      title='Dear Diary: journal writing for devs'
+      profilePicture='https://pbs.twimg.com/profile_images/730888592654897152/Y-KVHDyp_400x400.jpg'
+    >
+      <Text>
+        I can still hear the voice of my year 8 english teacher: "if you want to improve your writing: write! Get a diary and write in it every day".
+      </Text>
+      <Text>
+        20 years later, I finally took that good advice.  Now I consider journal-writing to be one of the most valuable habits a programmer can have. And where it is enriching for any developer at any stage of their career, it is an essential discipline for those who work remotely or as part of a distributed team.
+      </Text>
+      <Text>
+        In this talk I will share my experiences from the last few years of writing a developer journal and working in distributed teams. I'll cover some of the "why" questions and some of the reasons I find it so worthwhile. I'll also introduce some easy techniques, so that anyone in the audience who is keen can start right away. I'll wrap up with some exploration into how I see this fitting in with the past, present & future of the web.
+      </Text>
+    </Talk>
+
+    <Talk
       speaker='Sirani McNeill'
       twitter='mcne65'
       github='mcne65'
@@ -427,6 +472,57 @@ export default () => (
     >
       <Text>
         Three.js allows you to create and display animated 3D graphics in a web browser, adding not just another spatial, but also a temporal dimension. Three.js is a JavaScript library, which is good, because every browser can interpret our JavaScript code. It interacts with WebGL, which is the browser’s way to interact with the user’s graphics card
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Joshua Paling'
+      twitter='joshuapaling'
+      github='joshuapaling'
+      title='Copy-paste-pray? No way!'
+      profilePicture='https://pbs.twimg.com/profile_images/529152338137608192/1usA8Wsu_400x400.jpeg'
+    >
+      <Text>
+        This is a talk about understanding complex terminal commands.
+      </Text>
+      <Text>
+        At work, we recently set up a git pre-commit hook to run prettier on changed javascript files as part of each commit. It was one big long linux command, that I found online, then tweaked for our own project. Here's the command:
+      </Text>
+      <Text>
+        git diff --staged --diff-filter=dx --name-only HEAD | grep -E '.*\\.(js|jsx)$' | grep -v ^public/ | xargs -I % sh -c 'prettier --single-quote --trailing-comma es5  --write %; git add %'
+      </Text>
+      <Text>
+        This talk is about understanding this command - and other such linux commands. We'll spend about 15m going through fundamental linux concepts:
+      </Text>
+      <Text>
+          - philosophy of small, composable commands
+      </Text>
+      <Text>
+          - everything is a file"
+      </Text>
+      <Text>
+          - The 3 "standard" streams - STDIN, STDOUT, STDERR
+      </Text>
+      <Text>
+          - Redirecting the 3 standard streams
+      </Text>
+      <Text>
+          - Joining commands with pipes
+      </Text>
+      <Text>
+          - Using xargs to convert standard input to arguments
+      </Text>
+      <Text>
+          - Using explainshell.com for quickly understanding commands you've found on the internet
+      </Text>
+      <Text>
+        We'll work through small, self-contained examples each step of the way.
+      </Text>
+      <Text>
+        At the end, armed with this knowledge of how linux commands work, we'll come back and tackle our original command. We'll spend ~ 10m breaking it down step by step, and explaining how it works, and which of the features listed above it's using.
+      </Text>
+      <Text>
+        After the talk, people will have the foundations necessary to start moving away from the "copy-paste-pray" approach to linux commands that is all too common amongst juniors and intermediates, and start understanding commands they find online, tweaking them for their own use, and even composing their own more complex commands.
       </Text>
     </Talk>
 
