@@ -25,6 +25,27 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Venus Izadi'
+      twitter='VenusIzadi'
+      github='Venus-Izadi'
+      title='Contribute to Open Source projects with humanity and social impacts'
+      profilePicture='https://pbs.twimg.com/profile_images/583497023267024896/Ss9lgNq4_400x400.png'
+    >
+      <Text>
+        Objective:
+      </Text>
+      <Text>
+        This workshop will present different open source projects that have had effects on social and humanitarian issues, and different ways that participants can contribute in these projects. Participants will be briefly shown what Open Source is, and why it’s important for everyone to get involved in that. Also, this workshop will present a step-by-step collaborative approach to contribute, using GitHub version control.
+      </Text>
+      <Text>
+        Targeted audience:
+      </Text>
+      <Text>
+        It is intended for any individual with any background who are willing to make changes in social & humanitarian issues. Technical part of the workshop designed for participants with Beginners programming skills.
+      </Text>
+    </Talk>
+
+    <Talk
       speaker='Tommy-Carlos Williams'
       twitter='theRealDevgeeks'
       title='It’s Been Too Long Since You Last Looked At PhoneGap'
@@ -34,6 +55,17 @@ export default () => (
       <Text>
         “I tried it once, it was just too slow”. It’s a refrain I hear too often, but in the fast paced world of development (especially JavaScript) when was the last time that something was still the same as it was years ago? PhoneGap and Cordova are no exception. With the proliferation of faster hardware, better and more up to date webviews, and cutting edge JS frameworks... Hybrid App Development could be the solution you need. Between the rapid development cycle, the benefit of using existing web domain knowledge, a path to publishing PWAs for platforms that support it, and the potential for a large amount of shared code... isn’t it time you gave it another look?
       </Text>
+    </Talk>
+
+    <Talk
+      speaker='Melissa Kaulfuss'
+      twitter='MelissaKaulfuss'
+      title='How to be a happy developer'
+      profilePicture='https://pbs.twimg.com/profile_images/445091827310284800/bWZU2x8c_400x400.png'
+      >
+        <Text>Some of you may wonder why this is even a talk title, because solving problems is fun, right? _Right_.</Text>
+        <Text>Others however, may be more like me, a bundle of insecurity who puts immense pressure on oneself and struggles with the physical manifestation of anxiety and the mostly self inflicted stress in relation to work, life and almost everything. </Text>
+        <Text>This is the tale of my first year as a developer and will outline some strategies for dealing with anxiety and juggling life and our work (which lets face it, is all consuming).</Text>
     </Talk>
 
     <Talk
@@ -58,17 +90,6 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Melissa Kaulfuss'
-      twitter='MelissaKaulfuss'
-      title='How to be a happy developer'
-      profilePicture='https://pbs.twimg.com/profile_images/445091827310284800/bWZU2x8c_400x400.png'
-      >
-        <Text>Some of you may wonder why this is even a talk title, because solving problems is fun, right? _Right_.</Text>
-        <Text>Others however, may be more like me, a bundle of insecurity who puts immense pressure on oneself and struggles with the physical manifestation of anxiety and the mostly self inflicted stress in relation to work, life and almost everything. </Text>
-        <Text>This is the tale of my first year as a developer and will outline some strategies for dealing with anxiety and juggling life and our work (which lets face it, is all consuming).</Text>
-    </Talk>
-
-    <Talk
       speaker='James Kyle'
       twitter='thejameskyle'
       github='thejameskyle'
@@ -79,35 +100,29 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Dominik Dumaine'
-      twitter=''
-      github='Bondifrench'
-      title='Machine Learning and Javascript'
-      profilePicture='https://avatars1.githubusercontent.com/u/4905917?v=3&s=460'
+      speaker='Isabell Kiral-Kornek'
+      twitter='isa_kiko'
+      github='isakiko'
+      title='Workshop: Visualizing Data Using D3'
+      profilePicture='https://avatars1.githubusercontent.com/u/6100885?v=3&s=460'
     >
       <Text>
-        Musings about trying to find the right Javascript library to do Machine Learning in the browser (if time permitted, we'll build our own neural network).
+        Open science should be visible science. And what better way to make your research visible and accessible than putting it on the internet. But no one wants to read endless tables of data. We’d rather look at graphs, or, even better, have the possibility of interacting with the data. And we have probably all created some graphs. But in order to make them accessible to many people, we will have to move away from our specialized software to a more universal platform - the internet.
+      </Text>
+      <Text>
+        We want to display our data on a website to increase visibility and accessibility of our research. Our goal is to create a dynamic bubble plot (a prettier version of a scatter plot) and publish it on the internet.
       </Text>
     </Talk>
 
     <Talk
-      speaker='Venus Izadi'
-      twitter='VenusIzadi'
-      github='Venus-Izadi'
-      title='Contribute to Open Source projects with humanity and social impacts'
-      profilePicture='https://pbs.twimg.com/profile_images/583497023267024896/Ss9lgNq4_400x400.png'
+      speaker='Sirani McNeill'
+      twitter='mcne65'
+      github='mcne65'
+      title='JavaScript Rocks - Do’s and Don’t!'
+      profilePicture='https://pbs.twimg.com/profile_images/866265838281572352/5rTQxWWX_400x400.jpg'
     >
       <Text>
-        Objective:
-      </Text>
-      <Text>
-        This workshop will present different open source projects that have had effects on social and humanitarian issues, and different ways that participants can contribute in these projects. Participants will be briefly shown what Open Source is, and why it’s important for everyone to get involved in that. Also, this workshop will present a step-by-step collaborative approach to contribute, using GitHub version control.
-      </Text>
-      <Text>
-        Targeted audience:
-      </Text>
-      <Text>
-        It is intended for any individual with any background who are willing to make changes in social & humanitarian issues. Technical part of the workshop designed for participants with Beginners programming skills.
+        Talk about the basics of Javascript before moving into the NodeJS/AngularJS about server scripting and how they can impact work life before DevOps actually starts working in. Discuss how marketing content can work here.
       </Text>
     </Talk>
 
@@ -123,6 +138,18 @@ export default () => (
       </Text>
       <Text>
         In this talk we’ll go through some history before diving into how it all fits together and how you can start using it today.
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Dominik Dumaine'
+      twitter=''
+      github='Bondifrench'
+      title='Machine Learning and Javascript'
+      profilePicture='https://avatars1.githubusercontent.com/u/4905917?v=3&s=460'
+    >
+      <Text>
+        Musings about trying to find the right Javascript library to do Machine Learning in the browser (if time permitted, we'll build our own neural network).
       </Text>
     </Talk>
 
@@ -432,33 +459,6 @@ export default () => (
       </Text>
       <Text>
         In this talk I will share my experiences from the last few years of writing a developer journal and working in distributed teams. I'll cover some of the "why" questions and some of the reasons I find it so worthwhile. I'll also introduce some easy techniques, so that anyone in the audience who is keen can start right away. I'll wrap up with some exploration into how I see this fitting in with the past, present & future of the web.
-      </Text>
-    </Talk>
-
-    <Talk
-      speaker='Sirani McNeill'
-      twitter='mcne65'
-      github='mcne65'
-      title='JavaScript Rocks - Do’s and Don’t!'
-      profilePicture='https://pbs.twimg.com/profile_images/866265838281572352/5rTQxWWX_400x400.jpg'
-    >
-      <Text>
-        Talk about the basics of Javascript before moving into the NodeJS/AngularJS about server scripting and how they can impact work life before DevOps actually starts working in. Discuss how marketing content can work here.
-      </Text>
-    </Talk>
-
-    <Talk
-      speaker='Isabell Kiral-Kornek'
-      twitter='isa_kiko'
-      github='isakiko'
-      title='Workshop: Visualizing Data Using D3'
-      profilePicture='https://avatars1.githubusercontent.com/u/6100885?v=3&s=460'
-    >
-      <Text>
-        Open science should be visible science. And what better way to make your research visible and accessible than putting it on the internet. But no one wants to read endless tables of data. We’d rather look at graphs, or, even better, have the possibility of interacting with the data. And we have probably all created some graphs. But in order to make them accessible to many people, we will have to move away from our specialized software to a more universal platform - the internet.
-      </Text>
-      <Text>
-        We want to display our data on a website to increase visibility and accessibility of our research. Our goal is to create a dynamic bubble plot (a prettier version of a scatter plot) and publish it on the internet.
       </Text>
     </Talk>
 
