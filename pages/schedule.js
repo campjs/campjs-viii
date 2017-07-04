@@ -25,6 +25,19 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Anna Gerber'
+      twitter='AnnaGerber'
+      github='AnnaGerber'
+      title='Do you want to build a robot? ❄️ 🎵  🤖'
+      profilePicture='https://pbs.twimg.com/profile_images/855307168035127297/tmj1L_AA_400x400.jpg'
+    >
+      <Text>This session will show you how to take your robotics and IoT dreams and make them reality through the magic of JavaScript, including:</Text>
+      <Text>selecting hardware and developing circuits,</Text>
+      <Text>overview of some of the different options for developing programs to read from sensors and control actuators for robotics and IoT projects using JS,</Text>
+      <Text>connecting your device and getting it talking with other devices and services</Text>
+    </Talk>
+
+    <Talk
       speaker='Venus Izadi'
       twitter='VenusIzadi'
       github='Venus-Izadi'
@@ -55,6 +68,16 @@ export default () => (
       <Text>
         “I tried it once, it was just too slow”. It’s a refrain I hear too often, but in the fast paced world of development (especially JavaScript) when was the last time that something was still the same as it was years ago? PhoneGap and Cordova are no exception. With the proliferation of faster hardware, better and more up to date webviews, and cutting edge JS frameworks... Hybrid App Development could be the solution you need. Between the rapid development cycle, the benefit of using existing web domain knowledge, a path to publishing PWAs for platforms that support it, and the potential for a large amount of shared code... isn’t it time you gave it another look?
       </Text>
+    </Talk>
+
+    <Talk
+      speaker='Jessica Edwards'
+      twitter='jsscclr'
+      github='jsscclr'
+      title='Generic Sensor API'
+      profilePicture='https://pbs.twimg.com/profile_images/775838525388230656/DwCEKdHO_400x400.jpg'
+      >
+        <Text>Description coming soon.</Text>
     </Talk>
 
     <Talk
@@ -139,6 +162,16 @@ export default () => (
       <Text>
         In this talk we’ll go through some history before diving into how it all fits together and how you can start using it today.
       </Text>
+    </Talk>
+
+    <Talk
+      speaker='Jessica Edwards'
+      twitter='jsscclr'
+      github='jsscclr'
+      title='Web Workers + Service Workers'
+      profilePicture='https://pbs.twimg.com/profile_images/775838525388230656/DwCEKdHO_400x400.jpg'
+      >
+        <Text>Description coming soon.</Text>
     </Talk>
 
     <Talk
@@ -450,6 +483,7 @@ export default () => (
       github='joshwnj'
       title='Dear Diary: journal writing for devs'
       profilePicture='https://pbs.twimg.com/profile_images/730888592654897152/Y-KVHDyp_400x400.jpg'
+      sponsor='https://x-team.com'
     >
       <Text>
         I can still hear the voice of my year 8 english teacher: "if you want to improve your writing: write! Get a diary and write in it every day".
