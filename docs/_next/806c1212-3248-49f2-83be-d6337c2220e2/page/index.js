@@ -1,6 +1,0 @@
-
-          window.__NEXT_REGISTER_PAGE('/', function() {
-            var comp = module.exports=webpackJsonp([7],{154:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),l=function(e){return e&&e.__esModule?e:{default:e}}(r),n=a(2);t.default=function(){return l.default.createElement(n.Wrapper,null,l.default.createElement(n.Box,{is:"nav",display:"flex",flexDirection:"column"},l.default.createElement(n.NavLink,{prefetch:!0,href:"/news"},"1. News"),l.default.createElement(n.NavLink,{prefetch:!0,href:"/about"},"2. About"),l.default.createElement(n.NavLink,{prefetch:!0,href:"/schedule"},"3. Schedule"),l.default.createElement(n.NavLink,{prefetch:!0,href:"/get-involved"},"4. Get involved"),l.default.createElement(n.NavLink,{prefetch:!0,href:"/call-for-speakers"},"5. Call for speakers"),l.default.createElement(n.NavLink,{prefetch:!0,href:"/code-of-conduct"},"6. Code of conduct"),l.default.createElement(n.NavLink,{href:"https://ti.to/campjs/campjs-viii"},"7. Tickets!")))}},382:function(e,t,a){e.exports=a(154)}},[382]);
-            return { page: comp.default }
-          })
-        
