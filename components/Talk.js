@@ -43,7 +43,7 @@ class Talk extends Component {
             {title}
           </Text>
           <Text is='h3'>{speaker} - <a href={twitter ? `https://twitter.com/${twitter}` : `https://github.com/${github}`}>@{twitter || github}</a></Text>
-          <Box is='a' onClick={this.toggleDetails}>{this.state.showDetails ? 'Less details >' : 'More details >'}</Box>
+          <Box is='a' onClick={this.toggleDetails}>{this.state.showDetails ? 'Less detail >' : 'More detail >'}</Box>
           <Box display={!this.state.showDetails && 'none'}>
             {children}
           </Box>
