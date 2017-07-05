@@ -22,7 +22,7 @@ export default () => (
       name='Glen Arrowsmith'
       twitter='garrows'
       role='General Organiser'
-      email='glen.arrowsmith@gmail.com' //TODO: Swap to campjs email
+      email='garrows@campjs.com'
     />
 
     <Organiser
@@ -36,14 +36,13 @@ export default () => (
       name='Anna Gerber'
       twitter='AnnaGerber'
       role='Scheduling and Zine'
-      email='anna.m.gerber@gmail.com' //TODO: Swap to campjs email
+      email='annagerber@campjs.com'
     />
 
     <Organiser
       name='Craig Sharkie'
       twitter='twalve'
       role='Sponsorships'
-      email='craig.sharkie@gmail.com' //TODO: Swap to campjs email
     />
 
     <Organiser
@@ -56,15 +55,14 @@ export default () => (
     <Organiser
       name='Cathy Lill'
       twitter='cathyblabla'
-      role='Childcare Organisation'
-      //TODO: email?
+      role='Advisor and Childcare Organisation'
     />
 
     <Organiser
       name='Maurice Butler'
       twitter='butlermaurice'
       role='General Busy Body'
-      //TODO: email?
+      email='mauricebutler@campjs.com'
     />
 
     <Organiser

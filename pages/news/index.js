@@ -8,6 +8,11 @@ export const posts = [
     id: 'tickets-available',
     title: 'Tickets available',
     date: 'May 5'
+  },
+  {
+    id: 'diversity-and-inclusion',
+    title: 'Diversity and inclusion',
+    date: 'July 5'
   }
 ]
 
