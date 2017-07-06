@@ -74,21 +74,19 @@ export default () => (
       speaker='Jessica Edwards'
       twitter='jsscclr'
       github='jsscclr'
-      title='Generic Sensor API'
+      title='The Generic Sensor API'
       profilePicture='https://pbs.twimg.com/profile_images/775838525388230656/DwCEKdHO_400x400.jpg'
-      >
-        <Text>Description coming soon.</Text>
+    >
+      <Text>The Generic Sensor API is a specification that provides browser vendors a framework for implementing APIs accessing hardware features. What does that mean for developers? For the first time, it's possible to play with a whole new range of sensors, such as the accelerometer, gyroscope and magnetometer. This talk will cover the current state of the Generic Sensor API, the APIs built on top of it, and how you can get started using sensors via the web!</Text>
     </Talk>
 
     <Talk
-      speaker='Melissa Kaulfuss'
-      twitter='MelissaKaulfuss'
-      title='How to be a happy developer'
-      profilePicture='https://pbs.twimg.com/profile_images/445091827310284800/bWZU2x8c_400x400.png'
-      >
-        <Text>Some of you may wonder why this is even a talk title, because solving problems is fun, right? _Right_.</Text>
-        <Text>Others however, may be more like me, a bundle of insecurity who puts immense pressure on oneself and struggles with the physical manifestation of anxiety and the mostly self inflicted stress in relation to work, life and almost everything. </Text>
-        <Text>This is the tale of my first year as a developer and will outline some strategies for dealing with anxiety and juggling life and our work (which lets face it, is all consuming).</Text>
+      speaker='Julie Grundy'
+      twitter='stringy'
+      title='Inclusive Javascript'
+      profilePicture='https://pbs.twimg.com/profile_images/677060503236055040/h3j-XCJP_400x400.jpg'
+    >
+      <Text>Javascript can make a drastic change to your site for people with disabilities, depending on how you use it. It can either lock them out of your amazing product, or open up new worlds of internet possibility. I'll discuss the accessibility API, device independence and what the hell all that ARIA stuff is for, with real world examples. You'll learn techniques and best practices you can start applying today to make sure all of your hard work reaches the widest possible audience.</Text>
     </Talk>
 
     <Talk
@@ -168,10 +166,15 @@ export default () => (
       speaker='Jessica Edwards'
       twitter='jsscclr'
       github='jsscclr'
-      title='Web Workers + Service Workers'
+      title='The JavaScript Workers: An Introduction to Web & Service Workers'
       profilePicture='https://pbs.twimg.com/profile_images/775838525388230656/DwCEKdHO_400x400.jpg'
       >
-        <Text>Description coming soon.</Text>
+        <Text>
+            Historically, we have developed web applications with the assumption that the end user is connected to the internet. With the ever increasing browser support of Service Workers, however, this assumption is quickly becoming outdated: developers now have the opportunity to create websites that can work offline, independent of network status, with great flexibility.
+        </Text>
+        <Text>
+            But let’s take a step back: what is the Service Worker API? How does it enable developers to develop web applications with offline capabilities? To help answer these questions, one should look to its predecessor: the Web Worker API. By understanding what the Web Worker API provides us (and what it doesn’t), we can better understand Service Workers and how to use them.
+        </Text>
     </Talk>
 
     <Talk
