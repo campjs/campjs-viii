@@ -31,7 +31,7 @@ export default () => (
       A bus will be provided to take attendees to and from the venue.
     </Text>
     <Text>
-      It will travel from Tullamarine airport and back via Melbourne CBD. Interstate travellers should fly into Tullamarine airport around midday, busses will leave between 1 and 2pm. The return bus will get people back to the airport before midday.
+      It will travel from Tullamarine airport and back via Melbourne CBD. Interstate travellers should fly into Tullamarine airport around midday, busses will leave between 1 and 2pm. A bus will also take people from WDC to CampJS at 5.30pm. The return bus will get people back to the airport before midday.
     </Text>
 
     <Text is='h1' fontSize={1} mt={5} bold>What's provided?</Text>

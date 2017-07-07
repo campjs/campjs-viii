@@ -10,7 +10,8 @@ module.exports = {
       '/get-involved': { page: '/get-involved' },
       '/call-for-speakers': { page: '/call-for-speakers' },
       '/code-of-conduct': { page: '/code-of-conduct' },
-      '/organisers': { page: '/organisers' }
+      '/organisers': { page: '/organisers' },
+      '/feedback': { page: '/feedback' }
     }
   }
 }
