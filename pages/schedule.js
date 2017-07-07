@@ -7,11 +7,10 @@ import {
 } from '../components'
 
 export default () => (
-  <Wrapper title='Schedule'>
-    <Text>
-      Subject to change. More coming soon.
+  <Wrapper title='Sessions'>
+    <Text mb={6}>
+      Note that attendance to the sessions are optional. There will be 2 to 3 sessions going at a time depending on scheduling but feel free to hangout in the main hall and hack on your own thing or collaborate with others.
     </Text>
-    <NavLink mb={5} bold prefetch href={'/call-for-speakers'}>Submit a talk.</NavLink>
 
     <Talk
       speaker='Glen Maddern'
