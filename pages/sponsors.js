@@ -12,7 +12,7 @@ export default () => (
     <Text is='h1' fontSize={1} mt={5} bold>Our Current Sponsors</Text>
 
 	<Sponsor
-      sponsor='Lookahead Search'
+      company='Lookahead Search'
       logo='lookahead'
       siteUrl='https://www.lookahead.com.au/'
     ></Sponsor>
