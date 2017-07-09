@@ -562,17 +562,5 @@ export default () => (
       </Text>
     </Talk>
 
-    <Talk
-      speaker='Alex Dickson'
-      twitter='alexdickson'
-      github='alexanderdickson'
-      title='Probably Something Graphical/Niche Cool or Hardware Envelope Pushing'
-      profilePicture='https://pbs.twimg.com/profile_images/468972557526253568/N2bb2YCh_400x400.jpeg'
-    >
-      <Text>
-        ??? Who knows ???
-      </Text>
-    </Talk>
-
   </Wrapper>
 )
