@@ -1,7 +1,6 @@
 import { Component } from 'react'
 
 import {
-  Wrapper,
   Box,
   Text
 } from './'
