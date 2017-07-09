@@ -72,7 +72,7 @@ export default () => (
     <Text is='h1' fontSize={1} mt={5} bold>Code of Conduct</Text>
       <Text>CampJS takes pride in being accessible and welcoming for people
       from all walks of life. Participants should to review our <a
-      href="code-of-conduct.html">code of conduct</a> prior to attending
+      href="/code-of-conduct/">code of conduct</a> prior to attending
     as any violations will be taken seriously.
   </Text>
     <Text>
