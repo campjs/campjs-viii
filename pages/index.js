@@ -23,6 +23,7 @@ export default () => (
       <NavLink prefetch href='/food'>11. Food and Drinks</NavLink>
       <NavLink prefetch href='/transport'>12. Transport</NavLink>
       <NavLink prefetch href='/accessibility'>13. Accessibility</NavLink>
+      <NavLink prefetch href='/sponsors'>14. Sponsors</NavLink>
     </Box>
   </Wrapper>
 )
