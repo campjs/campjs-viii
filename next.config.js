@@ -13,6 +13,7 @@ module.exports = {
       '/code-of-conduct': { page: '/code-of-conduct' },
       '/organisers': { page: '/organisers' },
       '/accommodation': { page: '/accommodation' },
+      '/food': { page: '/food' },
       '/transport': { page: '/transport' },
       '/accessibility': { page: '/accessibility' }
     }
