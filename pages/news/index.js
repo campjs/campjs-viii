@@ -13,6 +13,11 @@ export const posts = [
     id: 'diversity-and-inclusion',
     title: 'Diversity and inclusion',
     date: 'July 5'
+  },
+    {
+    id: 'cfp-closed',
+    title: 'Call for Papers has now closed',
+    date: 'July 11'
   }
 ]
 
