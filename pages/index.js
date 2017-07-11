@@ -19,6 +19,10 @@ export default () => (
       <NavLink prefetch href='/organisers'>7. Organisers</NavLink>
       <NavLink prefetch href='/feedback'>8. Feedback</NavLink>
       <NavLink href='https://ti.to/campjs/campjs-viii'>9. Tickets!</NavLink>
+      <NavLink prefetch href='/accommodation'>10. Accommodation</NavLink>
+      <NavLink prefetch href='/food'>11. Food and Drinks</NavLink>
+      <NavLink prefetch href='/transport'>12. Transport</NavLink>
+      <NavLink prefetch href='/accessibility'>13. Accessibility</NavLink>
     </Box>
   </Wrapper>
 )
