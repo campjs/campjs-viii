@@ -25,7 +25,7 @@ export default () => (
   </Text>
   <Text is='h1' fontSize={1} mt={5} bold>Families</Text>
   <Text>
-    Families are welcome at CampJS, please <Link href='/organisers'>contact us</Link> if you would like to bring your family so that we can arrange appropriate accommodation. <Link href='https://ti.to/campjs/campjs-viii'>Tickets</Link> will need to be purchased for all family attendees that stay onsite.
+    Families are welcome at CampJS, please <Link href='/organisers'>contact us</Link> if you would like to bring your family so that we can arrange appropriate accommodation. Family tickets and more information will be available soon.
   </Text>
   <Text is='h1' fontSize={1} mt={5} bold>Alternative Accommodation</Text>
   <Text>
