@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/', function() {
+            var comp = module.exports=webpackJsonp([10],{512:function(e,t,a){e.exports=a(513)},513:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),n=function(e){return e&&e.__esModule?e:{default:e}}(r),f=a(5);t.default=function(){return n.default.createElement(f.Wrapper,null,n.default.createElement(f.Box,{is:"nav",display:"flex",flexDirection:"column"},n.default.createElement(f.NavLink,{prefetch:!0,href:"/news"},"1. News"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/about"},"2. About"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/schedule"},"3. Sessions"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/get-involved"},"4. Get involved"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/call-for-speakers"},"5. Call for speakers"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/code-of-conduct"},"6. Code of conduct"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/organisers"},"7. Organisers"),n.default.createElement(f.NavLink,{prefetch:!0,href:"/feedback"},"8. Feedback"),n.default.createElement(f.NavLink,{href:"https://ti.to/campjs/campjs-viii"},"9. Tickets!")))}}},[512]);
+            return { page: comp.default }
+          })
+        
