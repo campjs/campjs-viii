@@ -5,6 +5,7 @@ module.exports = {
       '/news': { page: '/news' },
       '/news/tickets-available': { page: '/news/tickets-available' },
       '/news/diversity-and-inclusion': { page: '/news/diversity-and-inclusion' },
+      '/news/cfp-closed': { page: '/news/cfp-closed' },
       '/about': { page: '/about' },
       '/schedule': { page: '/schedule' },
       '/get-involved': { page: '/get-involved' },
