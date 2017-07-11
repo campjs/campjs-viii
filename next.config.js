@@ -12,7 +12,9 @@ module.exports = {
       '/call-for-speakers': { page: '/call-for-speakers' },
       '/code-of-conduct': { page: '/code-of-conduct' },
       '/organisers': { page: '/organisers' },
-      '/feedback': { page: '/feedback' }
+      '/accommodation': { page: '/accommodation' },
+      '/transport': { page: '/transport' },
+      '/accessibility': { page: '/accessibility' }
     }
   }
 }
