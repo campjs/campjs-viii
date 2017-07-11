@@ -8,7 +8,7 @@ export default () => (
   <div>
   <Wrapper title='Transport'>
   <Text>
-    Coaches are provided to transport attendees to the camp from Melbourne Tullamarine airport and back via Melbourne CBD. Interstate and international travellers should fly into Tullamarine airport around midday, coaches will leave between 1pm and 2pm. A bus will also take attendees from the Web Directions Code conference venue to CampJS leaving at 5.30pm. Coaches will depart the camp at 7am and 10am on Monday morning, arriving Melbourne CBD at approx 8am and 11am, and airport at approx 9am and 12pm.
+    Coaches are provided to transport attendees to the camp from Melbourne Tullamarine airport and back via Melbourne CBD. Interstate and international travellers should fly into Tullamarine airport around midday, coaches will leave at 1pm and 2pm. A bus will also take attendees from the Web Directions Code conference venue to CampJS leaving at 5.30pm. Coaches will depart the camp at 7am and 10am on Monday morning, arriving Melbourne CBD at approx 8.30am and 11.30am, and airport at approx 9am and 12pm.
   </Text>
   <Text is='h1' fontSize={1} mt={5} bold>Accessibility</Text>
   <Text>
