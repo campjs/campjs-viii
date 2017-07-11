@@ -3,6 +3,7 @@ import {
   Text,
   Box,
   NavLink,
+  Link,
 } from '../components'
 
 export default () => (
@@ -14,9 +15,9 @@ export default () => (
     <Text is='h1' fontSize={1} mt={5} bold>When is CampJS?</Text>
     <Text mb={5}>
       CampJS VIII will commence at 3pm Friday on the 4th of August, and
-      run through to 9am Monday the 7th of August. The Camp will be heldddd at <a
-      href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Lord+Somers+Camp+Parklands+Avenue+Somers&sll=-37.787844,145.025454&sspn=0.019637,0.046778&ie=UTF8&cid=-38391441,145152110,7610982389541332772&ll=-38.382642,145.160122&spn=0.023548,0.036478&z=14&iwloc=A&source=embed">Lord
-      Somers Camp, Victoria, Australia</a>.
+      run through to 9am Monday the 7th of August. The Camp will be held at <a href="http://www.lordsomerscamp.com/">Lord
+      Somers Camp, Victoria, Australia</a> (<a
+      href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=Lord+Somers+Camp+Parklands+Avenue+Somers&sll=-37.787844,145.025454&sspn=0.019637,0.046778&ie=UTF8&cid=-38391441,145152110,7610982389541332772&ll=-38.382642,145.160122&spn=0.023548,0.036478&z=14&iwloc=A&source=embed">map</a>).
     </Text>
     <Box is='a' href="http://www.panoramio.com/photo/40130986">
       <Box is='img' src="/static/camp-melb.png" />
@@ -24,14 +25,11 @@ export default () => (
     <Text>
       The venue provides food, drink and comfortable accommodation for
       the duration of the event. You may camp on the grounds if that is
-      your wish.
+      your wish. See the <Link href='/accommodation'>accommodation page</Link> for more information.
     </Text>
     <Text is='h1' fontSize={1} mt={5} bold>Transport to camp</Text>
-    <Text bold>
-      A bus will be provided to take attendees to and from the venue.
-    </Text>
     <Text>
-      It will travel from Tullamarine airport and back via Melbourne CBD. Interstate travellers should fly into Tullamarine airport around midday, busses will leave between 1 and 2pm. A bus will also take people from WDC to CampJS at 5.30pm. The return bus will get people back to the airport before midday.
+      A bus will be provided to take attendees to and from the venue. Please see the <Link href='transport'>transport</Link> page for more information.
     </Text>
 
     <Text is='h1' fontSize={1} mt={5} bold>What's provided?</Text>
