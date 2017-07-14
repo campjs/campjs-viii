@@ -15,7 +15,8 @@ module.exports = {
       '/accommodation': { page: '/accommodation' },
       '/food': { page: '/food' },
       '/transport': { page: '/transport' },
-      '/accessibility': { page: '/accessibility' }
+      '/accessibility': { page: '/accessibility' },
+      '/sponsors': { page: '/sponsors' }
     }
   }
 }
