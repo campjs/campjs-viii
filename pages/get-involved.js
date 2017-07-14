@@ -1,10 +1,20 @@
 import {
-  Wrapper
+  Wrapper,
+  NavLink
 } from '../components'
 
 export default () => (
   <Wrapper title='Get Involved'>
-    <p>One of the best aspects of CampJS is the community. Over the past 6 events, that community has only grown stronger. As CampJS is a community run event, there is always plenty to help with. If you want to help in any way (or just get in on all the pre-camp excitement), head over to the #campjs channel on the <a href='http://view-source-radboats.herokuapp.com/'>View Source Slack</a>.</p>
-    <p>Also have a look at the open <a href="https://github.com/campjs/campjs-next/issues">issues on github</a> and see where you can help out. Any help is appreciated.</p>
+
+    <p>CampJS is a community run event. We are all volunteers and we welcome anyone who wants to help.</p>
+
+    <p>We try to organise as much of CampJS in the open. <a href="https://github.com/campjs/campjs-next/issues">Github issues</a> is the most open place we could find that's free, has good organisational tools and supports people with different schedules. If you're interested in helping our or have general questions, the <a href="https://github.com/campjs/campjs-next/issues">github issues</a> is the best bet. Please note that our <NavLink prefetch href='/code-of-conduct'>code of conduct</NavLink> applies here.</p>
+
+    <p>Slack works better for some people so we use that too. We do some organisation in <a href='https://wealljs.org/'>WeAllJS Slack</a> which has an amazing <a href='https://wealljs.org/code-of-conduct.html'>code of conduct</a> of it's own. Keep in mind though that slack history is quickly lost so anything that is helpful for the next event or anyone not using slack should be moved to the github issues. We are guests of WeAllJS so please make sure you follow the rules. If you'd like to come join us, use the command `/join-private #campjs`</p>
+
+    <p>If you're unsure about anything, please contact one of our <NavLink prefetch href='/organisers'>organisers</NavLink> by any means. We're always happy to help.</p>
+
+    <p>Even though CampJS has been around for a few years, we are still figuring things out. If you have any suggestions but don't feel comfortable with the above methods of communication, please let us know via our <NavLink prefetch href='/feedback'>feedback form</NavLink>.</p>
+
   </Wrapper>
 )

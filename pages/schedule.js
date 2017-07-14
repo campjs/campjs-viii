@@ -7,11 +7,10 @@ import {
 } from '../components'
 
 export default () => (
-  <Wrapper title='Schedule'>
-    <Text>
-      Subject to change. More coming soon.
+  <Wrapper title='Sessions'>
+    <Text mb={6}>
+      Note that attendance to the sessions are optional. There will be 2 to 3 sessions going at a time depending on scheduling but feel free to hangout in the main hall and hack on your own thing or collaborate with others.
     </Text>
-    <NavLink mb={5} bold prefetch href={'/call-for-speakers'}>Submit a talk.</NavLink>
 
     <Talk
       speaker='Glen Maddern'
@@ -22,6 +21,19 @@ export default () => (
       <Text>It seems inevitable. As we’ve moved to a more component-centric UI architecture, we’ve moved our JS and HTML and CSS closer and closer together. Surely they’ll eventually end up all in a single file, right?</Text>
       <Text>Not long ago, this idea was unthinkable—our units of composition were too large and divided along language boundaries. But things are changing.</Text>
       <Text>This is a talk about the dream of a unified development language for components, and the progress one library, Styled Components, has made towards that goal.</Text>
+    </Talk>
+
+    <Talk
+      speaker='Anna Gerber'
+      twitter='AnnaGerber'
+      github='AnnaGerber'
+      title='Do you want to build a robot? ❄️ 🎵  🤖'
+      profilePicture='https://pbs.twimg.com/profile_images/855307168035127297/tmj1L_AA_400x400.jpg'
+    >
+      <Text>This session will show you how to take your robotics and IoT dreams and make them reality through the magic of JavaScript, including:</Text>
+      <Text>selecting hardware and developing circuits,</Text>
+      <Text>overview of some of the different options for developing programs to read from sensors and control actuators for robotics and IoT projects using JS,</Text>
+      <Text>connecting your device and getting it talking with other devices and services</Text>
     </Talk>
 
     <Talk
@@ -58,14 +70,22 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Melissa Kaulfuss'
-      twitter='MelissaKaulfuss'
-      title='How to be a happy developer'
-      profilePicture='https://pbs.twimg.com/profile_images/445091827310284800/bWZU2x8c_400x400.png'
-      >
-        <Text>Some of you may wonder why this is even a talk title, because solving problems is fun, right? _Right_.</Text>
-        <Text>Others however, may be more like me, a bundle of insecurity who puts immense pressure on oneself and struggles with the physical manifestation of anxiety and the mostly self inflicted stress in relation to work, life and almost everything. </Text>
-        <Text>This is the tale of my first year as a developer and will outline some strategies for dealing with anxiety and juggling life and our work (which lets face it, is all consuming).</Text>
+      speaker='Jessica Edwards'
+      twitter='jsscclr'
+      github='jsscclr'
+      title='The Generic Sensor API'
+      profilePicture='https://pbs.twimg.com/profile_images/775838525388230656/DwCEKdHO_400x400.jpg'
+    >
+      <Text>The Generic Sensor API is a specification that provides browser vendors a framework for implementing APIs accessing hardware features. What does that mean for developers? For the first time, it's possible to play with a whole new range of sensors, such as the accelerometer, gyroscope and magnetometer. This talk will cover the current state of the Generic Sensor API, the APIs built on top of it, and how you can get started using sensors via the web!</Text>
+    </Talk>
+
+    <Talk
+      speaker='Julie Grundy'
+      twitter='stringy'
+      title='Inclusive Javascript'
+      profilePicture='https://pbs.twimg.com/profile_images/677060503236055040/h3j-XCJP_400x400.jpg'
+    >
+      <Text>Javascript can make a drastic change to your site for people with disabilities, depending on how you use it. It can either lock them out of your amazing product, or open up new worlds of internet possibility. I'll discuss the accessibility API, device independence and what the hell all that ARIA stuff is for, with real world examples. You'll learn techniques and best practices you can start applying today to make sure all of your hard work reaches the widest possible audience.</Text>
     </Talk>
 
     <Talk
@@ -139,6 +159,21 @@ export default () => (
       <Text>
         In this talk we’ll go through some history before diving into how it all fits together and how you can start using it today.
       </Text>
+    </Talk>
+
+    <Talk
+      speaker='Jessica Edwards'
+      twitter='jsscclr'
+      github='jsscclr'
+      title='The JavaScript Workers: An Introduction to Web & Service Workers'
+      profilePicture='https://pbs.twimg.com/profile_images/775838525388230656/DwCEKdHO_400x400.jpg'
+      >
+        <Text>
+            Historically, we have developed web applications with the assumption that the end user is connected to the internet. With the ever increasing browser support of Service Workers, however, this assumption is quickly becoming outdated: developers now have the opportunity to create websites that can work offline, independent of network status, with great flexibility.
+        </Text>
+        <Text>
+            But let’s take a step back: what is the Service Worker API? How does it enable developers to develop web applications with offline capabilities? To help answer these questions, one should look to its predecessor: the Web Worker API. By understanding what the Web Worker API provides us (and what it doesn’t), we can better understand Service Workers and how to use them.
+        </Text>
     </Talk>
 
     <Talk
@@ -450,6 +485,7 @@ export default () => (
       github='joshwnj'
       title='Dear Diary: journal writing for devs'
       profilePicture='https://pbs.twimg.com/profile_images/730888592654897152/Y-KVHDyp_400x400.jpg'
+      sponsor='https://x-team.com'
     >
       <Text>
         I can still hear the voice of my year 8 english teacher: "if you want to improve your writing: write! Get a diary and write in it every day".
@@ -523,18 +559,6 @@ export default () => (
       </Text>
       <Text>
         After the talk, people will have the foundations necessary to start moving away from the "copy-paste-pray" approach to linux commands that is all too common amongst juniors and intermediates, and start understanding commands they find online, tweaking them for their own use, and even composing their own more complex commands.
-      </Text>
-    </Talk>
-
-    <Talk
-      speaker='Alex Dickson'
-      twitter='alexdickson'
-      github='alexanderdickson'
-      title='Probably Something Graphical/Niche Cool or Hardware Envelope Pushing'
-      profilePicture='https://pbs.twimg.com/profile_images/468972557526253568/N2bb2YCh_400x400.jpeg'
-    >
-      <Text>
-        ??? Who knows ???
       </Text>
     </Talk>
 
