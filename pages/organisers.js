@@ -42,7 +42,8 @@ export default () => (
     <Organiser
       name='Craig Sharkie'
       twitter='twalve'
-      role='Sponsorships'
+      role='Sponsorships & Scholarships'
+      email='sharkie@campjs.com'
     />
 
     <Organiser

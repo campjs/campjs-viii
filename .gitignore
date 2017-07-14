@@ -3,3 +3,7 @@
 out
 node_modules
 npm-debug.log
+
+# Must keep the fairly annoying `docs`
+# from being ignored to publish the site 
+# docs

@@ -57,6 +57,6 @@ export default () => (
     />
 
     <Text>Adding more sponsors soon....</Text>
-
   </Wrapper>
+
 )
