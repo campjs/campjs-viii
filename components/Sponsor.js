@@ -30,11 +30,10 @@ class Sponsor extends Component {
       css = {}
     } = this.props
     return (
-      <Box mb={5} css={{display: 'flex', 'flex-flow': 'column'}}>
-        <Box is='a' href={siteUrl} css={{display: 'inline',width: '50%','margin-top': '1rem'}}>
-          <Box is='img' src={`/static/sponsors/${logo}`} css={{width: '50%'}}/>
-            <Text>Visit {company}</Text>
-          </Box>
+      <Box mb={5} css={{display: 'flex', 'flex-flow': 'column', width: '50%'}}>
+        <Box is='a' href={siteUrl} css={{display: 'inline',width: '100%','margin-top': '1rem'}}>
+          <Box is='img' src={`/static/sponsors/${logo}`} css={{'background-color': 'white', padding: '.5rem', width: '100%'}} />
+          <Text>Visit {company}</Text>
         </Box>
       </Box>
     )
