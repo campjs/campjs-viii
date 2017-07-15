@@ -27,7 +27,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "styled-jsx": "^1.0.8"
   },
   "devDependencies": {
     "axs": "^1.0.6",

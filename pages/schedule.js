@@ -462,6 +462,20 @@ export default () => (
     </Talk>
 
     <Talk
+      speaker='Brad Barrow'
+      twitter='foxwisp'
+      title='Engineering Experiences: Coding for design at scale'
+      profilePicture='https://pbs.twimg.com/profile_images/3761941415/767f4dd7107899d52155f237e66865ce_400x400.jpeg'
+    >
+      <Text>
+      In an industry where common design patterns are widely understood, why is it that many teams fail at executing on these patterns at scale? Even when designers focus on building out comprehensive design systems, the challenges of maintaining them and enforcing them are real.  Design tools aren't quite yet up to the task of handling versioned contributions from multiple team members and even harder can be to get the whole team to agree on what tool to use. Designs then cross over into engineering, where the problem of  consistency multiplies.
+      </Text>
+      <Text>
+      I think it'll be the complete union of engineering and design as functions that ultimately solves these challenges - a sort of Experience Engineer. In this session I'll cover some of the methods and tools people are already using to bridge the gap and offer my thoughts on how I think we may continue to innovate in the space.
+      </Text>
+    </Talk>
+
+    <Talk
       speaker='Christopher Biggs'
       twitter='Unixbigot'
       github='Unixbigot'
@@ -508,6 +522,21 @@ export default () => (
     >
       <Text>
         Three.js allows you to create and display animated 3D graphics in a web browser, adding not just another spatial, but also a temporal dimension. Three.js is a JavaScript library, which is good, because every browser can interpret our JavaScript code. It interacts with WebGL, which is the browser’s way to interact with the user’s graphics card
+      </Text>
+    </Talk>
+
+    <Talk
+      speaker='Phil Nash'
+      twitter='philnash'
+      github='philnash'
+      title='An empty database in every pocket'
+      profilePicture='https://avatars5.githubusercontent.com/u/31462?v=4&s=460'
+    >
+      <Text>
+      IndexedDB is not new. It is supported in almost every browser. Without it the future of progressive web apps are in peril. But there is not a lot of love for it and that needs to change.
+      </Text>
+      <Text>
+      We'll investigate why we should love IndexedDB and the kind of apps you can create when you have the power of a database in the browser. Then we'll dive into how to use IndexedDB with a look at both the terrifying API and the friendly libraries that will help us along the way. Together we'll discover a new love for IndexedDB.
       </Text>
     </Talk>
 
@@ -561,6 +590,19 @@ export default () => (
         After the talk, people will have the foundations necessary to start moving away from the "copy-paste-pray" approach to linux commands that is all too common amongst juniors and intermediates, and start understanding commands they find online, tweaking them for their own use, and even composing their own more complex commands.
       </Text>
     </Talk>
+
+    <Talk
+      speaker='Peita Lin'
+      github='peitalin'
+      title='Building Interactive Map Apps with Mapbox-gl'
+      profilePicture='https://avatars6.githubusercontent.com/u/4037878?v=4&s=460'
+    >
+      <Text>
+      Maps are great for organising data so that it's sensible and intuitive to average users. But most maps in apps are static and fail to take full advantage of manipulating interactivity with maps for better user engagement.
+      In this talk, I'll cover mapbox-gl fundamentals and cover some of the ways in which I've been able to construct interactive components on the map for richer and more immersive user experiences.
+      </Text>
+    </Talk>
+
 
   </Wrapper>
 )
