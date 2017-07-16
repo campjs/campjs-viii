@@ -260,6 +260,7 @@ export default () => (
       github='SomeoneWeird'
       title='Building products for developing countries at massive scale'
       profilePicture='https://pbs.twimg.com/profile_images/440837185948770304/TUmMQOzR_400x400.png'
+      sponsor='https://www.iflix.com/'
     >
       <Text>
         iflix is one of the largest SVOD services for developing countries in the world, going from 0 to 1 million users in less than six months, and adding on many more millions ever since. Unlike western and first-world countries, many users don’t have the luxury of a functioning broadband connection. So how do you get your service to users in Nigeria - when nobody has a computer, and mobile data is at an extreme premium? This talk will cover everything from using Lambda & S3 for serving content, to maintaining Kubernetes for realtime services, all the way to deploying our own mini-CDN across Asia, Africa and the Middle East.

@@ -19,7 +19,6 @@ class Talk extends Component {
     this.setState(prevState => ({
       showDetails: !prevState.showDetails
     }));
-    console.log('toggle');
   }
 
   render () {
