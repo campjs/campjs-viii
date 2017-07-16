@@ -5,6 +5,8 @@ module.exports = {
       '/news': { page: '/news' },
       '/news/tickets-available': { page: '/news/tickets-available' },
       '/news/diversity-and-inclusion': { page: '/news/diversity-and-inclusion' },
+      '/news/diversity-community-tickets': { page: '/news/diversity-community-tickets' },
+      '/news/ticket-sales-paused': { page: '/news/ticket-sales-paused' },
       '/news/cfp-closed': { page: '/news/cfp-closed' },
       '/about': { page: '/about' },
       '/schedule': { page: '/schedule' },
