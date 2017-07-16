@@ -6,34 +6,25 @@ import {
 } from './'
 
 class Sponsor extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      showDetails: false
-    }
-    // This binding is necessary to make `this` work in the callback
-    this.toggleDetails = this.toggleDetails.bind(this);
-  }
-
-  toggleDetails () {
-    this.setState(prevState => ({
-      showDetails: !prevState.showDetails
-    }));
-    console.log('toggle');
-  }
-
   render () {
     const {
       company,
       logo,
       siteUrl,
-      css = {}
+      css = {},
+      children
     } = this.props
     return (
-      <Box mb={5} css={{display: 'flex', 'flex-flow': 'column', width: '50%'}}>
-        <Box is='a' href={siteUrl} css={{display: 'inline',width: '100%','margin-top': '1rem'}}>
-          <Box is='img' src={`/static/sponsors/${logo}`} css={{'background-color': 'white', padding: '.5rem', width: '100%'}} />
-          <Text>Visit {company}</Text>
+      <Box mb={6} mt={5} width={1}>
+        <Box is='a' href={siteUrl} style={{opacity:1}}>
+          <Box is='img' src={`/static/sponsors/${logo}`} css={{
+            'background-color': 'white',
+            padding: '.5rem',
+            width: '100%',
+            height:'150px'
+          }}></Box>
+          <Box>{children}</Box>
+          <Box>Visit {company}</Box>
         </Box>
       </Box>
     )
