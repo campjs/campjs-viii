@@ -36,26 +36,6 @@ export default () => (
       <Text>connecting your device and getting it talking with other devices and services</Text>
     </Talk>
 
-    <Talk
-      speaker='Venus Izadi'
-      twitter='VenusIzadi'
-      github='Venus-Izadi'
-      title='Contribute to Open Source projects with humanity and social impacts'
-      profilePicture='https://pbs.twimg.com/profile_images/583497023267024896/Ss9lgNq4_400x400.png'
-    >
-      <Text>
-        Objective:
-      </Text>
-      <Text>
-        This workshop will present different open source projects that have had effects on social and humanitarian issues, and different ways that participants can contribute in these projects. Participants will be briefly shown what Open Source is, and why it’s important for everyone to get involved in that. Also, this workshop will present a step-by-step collaborative approach to contribute, using GitHub version control.
-      </Text>
-      <Text>
-        Targeted audience:
-      </Text>
-      <Text>
-        It is intended for any individual with any background who are willing to make changes in social & humanitarian issues. Technical part of the workshop designed for participants with Beginners programming skills.
-      </Text>
-    </Talk>
 
     <Talk
       speaker='Tommy-Carlos Williams'
@@ -120,7 +100,7 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Isabell Kiral-Kornek'
+      speaker='Isabell Kiral-Kornek and Robert Kerr'
       twitter='isa_kiko'
       github='isakiko'
       title='Workshop: Visualizing Data Using D3'
@@ -134,17 +114,6 @@ export default () => (
       </Text>
     </Talk>
 
-    <Talk
-      speaker='Sirani McNeill'
-      twitter='mcne65'
-      github='mcne65'
-      title='JavaScript Rocks - Do’s and Don’t!'
-      profilePicture='https://pbs.twimg.com/profile_images/866265838281572352/5rTQxWWX_400x400.jpg'
-    >
-      <Text>
-        Talk about the basics of Javascript before moving into the NodeJS/AngularJS about server scripting and how they can impact work life before DevOps actually starts working in. Discuss how marketing content can work here.
-      </Text>
-    </Talk>
 
     <Talk
       speaker='Ash Kyd'
@@ -342,11 +311,11 @@ export default () => (
       speaker='Ben O’Neal'
       twitter=''
       github='benoneal'
-      title='Event Sourcing: Redux’s Big Brother'
+      title='The complex made simple with Event Sourcing'
       profilePicture='https://avatars3.githubusercontent.com/u/4063875?v=3&s=460'
     >
       <Text>
-        Exploring the power of event sourcing to manage state and business logic in a production javascript application. Examples include handling transactional and behavioural emails, user analytics, and reporting.
+        An exploration into how a flexible approach to Event Sourcing combined with a few simple abstractions can dramatically simplify traditionally complex problems. Examples include a complete email marketing solution, and fully automated feature analysis and rollout.
       </Text>
     </Talk>
 
@@ -446,19 +415,13 @@ export default () => (
       sponsor='https://small.mu'
     >
       <Text>
-        I plan to  start off by going over some functional patterns that are popular in the javascript community. Examples include pure functions and immutabillty.
+        I plan to start off by going over some functional patterns that are popular in the javascript community. Examples include pure functions and immutabillty.
       </Text>
       <Text>
-        After that I will be taking a deep dive in some patterns that's not popular in javascript but heavily used in functional programming. Topics include the power of curry, composing all the things and abstract data types (ADT).
+        After that I will be taking a deep dive in some patterns thats not popular in javascript but heavily used in functional programming. How we can write our functions in a way that makes it easier to compose them into applications.
       </Text>
       <Text>
-        - I will talk about a simple box, Maybe, Either and Task.
-      </Text>
-      <Text>
-        - How the laws of composition can help us or our tools optimize code.
-      </Text>
-      <Text>
-        - What’s category theory got to do with all of this.
+        The last part will be about algabraic data types (ADT). What they are, how to use them and maybe most important, why to use them.
       </Text>
     </Talk>
 
@@ -514,7 +477,7 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Robert Kerr'
+      speaker='Robert Kerr and Isabell Kiral-Kornek'
       twitter='robrkerr'
       github='robrkerr'
       title='Workshop: 3D Animation with ThreeJS'
