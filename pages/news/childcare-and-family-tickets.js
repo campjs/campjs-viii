@@ -32,7 +32,7 @@ export default () => (
     </Text>
 
     <Text>
-      We have also released some daytime only tickets for parents. We recognise that the dormatory style <NavLink prefetch href='/accommodation'>accommodation</NavLink> isn't suitable for all families. Breakfast, lunch, dinner and drinks are provided and note you're welcome to stay after sunset.
+      We have also released some daytime only tickets for parents. We recognize that the dormitory style <NavLink prefetch href='/accommodation'>accommodation</NavLink> isn't suitable for all families. Breakfast, lunch, dinner and drinks are provided and note you're welcome to stay after sunset.
     </Text>
 
     <Text>
