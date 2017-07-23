@@ -21,6 +21,10 @@ export const posts = [
     id: 'ticket-sales-paused',
     title: 'Is CampJS Sold Out?',
     date: 'July 16'
+  }, {
+    id: 'childcare-and-family-tickets',
+    title: 'Childcare & Family Friendly Tickets',
+    date: 'July 21'
   }
 ]
 
