@@ -555,18 +555,5 @@ export default () => (
       </Text>
     </Talk>
 
-    <Talk
-      speaker='Peita Lin'
-      github='peitalin'
-      title='Building Interactive Map Apps with Mapbox-gl'
-      profilePicture='https://avatars6.githubusercontent.com/u/4037878?v=4&s=460'
-    >
-      <Text>
-      Maps are great for organising data so that it's sensible and intuitive to average users. But most maps in apps are static and fail to take full advantage of manipulating interactivity with maps for better user engagement.
-      In this talk, I'll cover mapbox-gl fundamentals and cover some of the ways in which I've been able to construct interactive components on the map for richer and more immersive user experiences.
-      </Text>
-    </Talk>
-
-
   </Wrapper>
 )
