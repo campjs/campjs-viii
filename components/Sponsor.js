@@ -15,13 +15,12 @@ class Sponsor extends Component {
       children
     } = this.props
     return (
-      <Box mb={6} mt={5} width={1}>
-        <Box is='a' href={siteUrl} style={{opacity:1}}>
+      <Box mb={6} mt={5} width={.66}>
+        <Box is='a' href={siteUrl} style={{opacity:1}} target="_blank">
           <Box is='img' src={`/static/sponsors/${logo}`} css={{
             'background-color': 'white',
             padding: '.5rem',
-            width: '100%',
-            height:'150px'
+            width: '100%'
           }}></Box>
           <Box>{children}</Box>
           <Box>Visit {company}</Box>
