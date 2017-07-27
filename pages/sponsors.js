@@ -20,6 +20,14 @@ export default () => (
     </Sponsor>
 
     <Sponsor
+        company='Thinkmill'
+        logo='thinkmill.png'
+        siteUrl='https://www.thinkmill.com.au/'
+    >
+      Thanks for sponsoring Diversity and Community Tickets
+    </Sponsor>
+
+    <Sponsor
         company='RedBubble'
         logo='redbubble.png'
         siteUrl='https://www.redbubble.com/'
