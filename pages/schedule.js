@@ -185,18 +185,6 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='Matt Way'
-      twitter='_MattWay'
-      github='matt-way'
-      title='Building an API with GraphQL and AWS Lambda'
-      profilePicture='https://pbs.twimg.com/profile_images/793336312799629312/V4Hogv3d_400x400.jpg'
-    >
-      <Text>
-        Matt Way shows us the power of GraphQL and demonstrates why it’s 2017’s most desired tech with his implementation built on AWS Lambda.
-      </Text>
-    </Talk>
-
-    <Talk
       speaker='Patrick Quinn-Graham'
       twitter='thepatrick'
       github='thepatrick'
