@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/news', function() {
+            var comp = module.exports=webpackJsonp([11],{163:function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.posts=void 0;var l=i(0),a=function(e){return e&&e.__esModule?e:{default:e}}(l),d=i(1),s=t.posts=[{id:"tickets-available",title:"Tickets available",date:"May 5"},{id:"diversity-and-inclusion",title:"Diversity and inclusion",date:"July 5"},{id:"cfp-closed",title:"Call for Papers has now closed",date:"July 11"},{id:"diversity-community-tickets",title:"Diversity and Community Tickets",date:"July 16"},{id:"ticket-sales-paused",title:"Is CampJS Sold Out?",date:"July 16"},{id:"childcare-and-family-tickets",title:"Childcare & Family Friendly Tickets",date:"July 21"}];t.default=function(){return a.default.createElement(d.Wrapper,{title:"News",linkOffset:1},s.map(function(e,t){return a.default.createElement(d.NavLink,{prefetch:!0,href:"/news/"+e.id,key:t},t+1,". ",e.date,"- ",e.title)}))}},407:function(e,t,i){e.exports=i(163)}},[407]);
+            return { page: comp.default }
+          })
+        

@@ -319,15 +319,9 @@ const SCHEDULE = {
       speaker: 'Jessica Claire Edwards',
     },
     {
-      time: '3:15pm - 4:15pm',
+      time: '3:15pm - 6:00pm',
       venue: TOWER,
       title: 'Informal Lightning talks / demos / workshop session',
-    },
-    {
-      time: '3:45pm - 4:15pm',
-      venue: AMPHITHEATRE,
-      title: 'How to build a type checker',
-      speaker: 'James Kyle',
     },
     {
       time: '6:00pm',

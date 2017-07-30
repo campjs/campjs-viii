@@ -11,6 +11,7 @@ module.exports = {
       '/news/cfp-closed': { page: '/news/cfp-closed' },
       '/about': { page: '/about' },
       '/schedule': { page: '/schedule' },
+      '/sessions': { page: '/sessions' },
       '/get-involved': { page: '/get-involved' },
       '/call-for-speakers': { page: '/call-for-speakers' },
       '/code-of-conduct': { page: '/code-of-conduct' },
