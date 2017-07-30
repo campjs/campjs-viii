@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/accessibility', function() {
+            var comp = module.exports=webpackJsonp([23],{519:function(e,t,a){e.exports=a(520)},520:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),n=function(e){return e&&e.__esModule?e:{default:e}}(r),o=a(2);t.default=function(){return n.default.createElement("div",null,n.default.createElement(o.Wrapper,{title:"Accessibility"},n.default.createElement(o.Text,{mb:5},"We do our best to make CampJS accessible to all, our transport and venue providers have accessibility options available including wheelchair accessible buses, ramps, shower chairs and accessible bathrooms. Please ",n.default.createElement(o.Link,{href:"/organisers"},"contact us")," if you require assistance or additional facilities so that we can support your attendance. See the ",n.default.createElement(o.Link,{href:"/transport"},"transport")," and ",n.default.createElement(o.Link,{href:"/accommodation"},"accommodation")," pages for more details.")))}}},[519]);
+            return { page: comp.default }
+          })
+        
