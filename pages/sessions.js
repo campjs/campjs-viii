@@ -90,20 +90,10 @@ export default () => (
     </Talk>
 
     <Talk
-      speaker='James Kyle'
-      twitter='thejameskyle'
-      github='thejameskyle'
-      title='How to build a type checker'
-      profilePicture='https://pbs.twimg.com/profile_images/879650512689184768/joE91luO_400x400.jpg'
-      >
-        <Text>Types are everywhere, strings, booleans, numbers, objects, every value and expression in your code has a type. In JavaScript, we never really see these types until something has gone wrong. But new type checkers like Flow or TypeScript bring them front and center, letting you write these types and see things going wrong earlier on. But how do they do it? Well, we're going to build a super tiny type checker together and see exactly how they work. It's much simpler than you might think and you'll learn about all sorts of data structures and patterns along the way.</Text>
-    </Talk>
-
-    <Talk
       speaker='Isabell Kiral-Kornek and Robert Kerr'
       twitter='isa_kiko'
       github='isakiko'
-      title='Workshop: Visualizing Data Using D3'
+      title='Workshop: Beginner’s Guide to DataViz with D3'
       profilePicture='https://avatars1.githubusercontent.com/u/6100885?v=3&s=460'
     >
       <Text>
@@ -468,7 +458,7 @@ export default () => (
       speaker='Robert Kerr and Isabell Kiral-Kornek'
       twitter='robrkerr'
       github='robrkerr'
-      title='Workshop: 3D Animation with ThreeJS'
+      title='Workshop: Beginner’s Guide to DataViz with ThreeJS'
       profilePicture='https://avatars3.githubusercontent.com/u/478084?v=3&s=460'
       sponsor='https://seermedical.com/'
     >
