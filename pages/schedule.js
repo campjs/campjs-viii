@@ -319,7 +319,7 @@ const SCHEDULE = {
       speaker: 'Jessica Claire Edwards',
     },
     {
-      time: '3:15pm - 6:00pm',
+      time: '3:15pm - 4:15pm',
       venue: TOWER,
       title: 'Informal Lightning talks / demos / workshop session',
     },
