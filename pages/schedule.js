@@ -28,6 +28,7 @@ export default () => (
         <Box
           key={entry.time + entry.venue}
           mb={40}
+          id={ entry.talk }
         >
           <Text
             p={2}
@@ -45,6 +46,7 @@ export default () => (
           { entry.title && <Text css={{ 'font-weight': 700 }}>{entry.title}</Text> }
           { entry.speaker && <Text>{entry.speaker}</Text> }
           { entry.note && <Text>{entry.note}</Text> }
+          { entry.talk && <NavLink href={`/sessions#${entry.talk}`}>Read More</NavLink> }
         </Box>
       ))}
     </Box>

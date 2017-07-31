@@ -71,17 +71,6 @@ export default {
       'The Internets, it’s serious business! 📈',
     ],
   },
-  type: {
-    id: 'type',
-    speaker:'James Kyle',
-    twitter:'thejameskyle',
-    github:'thejameskyle',
-    title:'How to build a type checker',
-    profilePicture:'https://pbs.twimg.com/profile_images/879650512689184768/joE91luO_400x400.jpg',
-    description: [
-      'Types are everywhere, strings, booleans, numbers, objects, every value and expression in your code has a type. In JavaScript, we never really see these types until something has gone wrong. But new type checkers like Flow or TypeScript bring them front and center, letting you write these types and see things going wrong earlier on. But how do they do it? Well, we\'re going to build a super tiny type checker together and see exactly how they work. It\'s much simpler than you might think and you\'ll learn about all sorts of data structures and patterns along the way.',
-    ],
-  },
   d3: {
     id: 'd3',
     speaker:'Isabell Kiral-Kornek and Robert Kerr',
