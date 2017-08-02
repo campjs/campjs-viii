@@ -27,6 +27,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "argparse": "^1.0.9",
     "express": "^4.15.3",
     "styled-jsx": "^1.0.8"
   },

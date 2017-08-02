@@ -84,6 +84,12 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
+argparse@^1.0.9:
+  version "1.0.9"
+  resolved "http://npm.salespreso.com/argparse/-/argparse-1.0.9.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
+  dependencies:
+    sprintf-js "~1.0.2"
+
 arr-diff@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/arr-diff/-/arr-diff-2.0.0.tgz#8f3b827f955a8bd669697e4a4256ac3ceae356cf"
@@ -798,6 +804,15 @@ babel-traverse@^6.23.1, babel-traverse@^6.24.1:
     invariant "^2.2.0"
     lodash "^4.2.0"
 
+babel-types@6.23.0:
+  version "6.23.0"
+  resolved "http://npm.salespreso.com/babel-types/-/babel-types-6.23.0.tgz#bb17179d7538bad38cd0c9e115d340f77e7e9acf"
+  dependencies:
+    babel-runtime "^6.22.0"
+    esutils "^2.0.2"
+    lodash "^4.2.0"
+    to-fast-properties "^1.0.1"
+
 babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.24.1.tgz#a136879dc15b3606bda0d90c1fc74304c2ff0975"
@@ -1179,6 +1194,12 @@ crypto-browserify@^3.11.0:
     pbkdf2 "^3.0.3"
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
+
+css-tree@1.0.0-alpha17:
+  version "1.0.0-alpha17"
+  resolved "http://npm.salespreso.com/css-tree/-/css-tree-1.0.0-alpha17.tgz#7ab95ab72c533917af8be54313fec81841c5223a"
+  dependencies:
+    source-map "^0.5.3"
 
 cxs@^3.0.1:
   version "3.0.4"
@@ -3175,6 +3196,10 @@ spdx-license-ids@^1.0.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
 
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "http://npm.salespreso.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
 sshpk@^1.7.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/sshpk/-/sshpk-1.13.0.tgz#ff2a3e4fd04497555fed97b39a0fd82fafb3a33c"
@@ -3279,6 +3304,25 @@ styled-jsx@0.5.7:
     object.entries "1.0.4"
     source-map "0.5.6"
     string-hash "1.1.1"
+
+styled-jsx@^1.0.8:
+  version "1.0.10"
+  resolved "http://npm.salespreso.com/styled-jsx/-/styled-jsx-1.0.10.tgz#114eea6ff5ae8f54bc2bcda86d2861085d5c99dd"
+  dependencies:
+    babel-plugin-syntax-jsx "6.18.0"
+    babel-traverse "6.21.0"
+    babel-types "6.23.0"
+    babylon "6.14.1"
+    convert-source-map "1.3.0"
+    css-tree "1.0.0-alpha17"
+    escape-string-regexp "1.0.5"
+    source-map "0.5.6"
+    string-hash "1.1.1"
+    stylis "3.2.8"
+
+stylis@3.2.8:
+  version "3.2.8"
+  resolved "http://npm.salespreso.com/stylis/-/stylis-3.2.8.tgz#9b23a3e06597f7944a3d9ae880d5796248b8784f"
 
 supports-color@^2.0.0:
   version "2.0.0"
