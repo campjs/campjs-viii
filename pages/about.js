@@ -29,7 +29,7 @@ export default () => (
     </Text>
     <Text is='h1' fontSize={1} mt={5} bold>Transport to camp</Text>
     <Text>
-      A bus will be provided to take attendees to and from the venue. Please see the <Link href='transport'>transport</Link> page for more information.
+      A busses will be provided to take attendees to and from the venue. Please see the <Link href='/transport'>transport</Link> page for more information.
     </Text>
 
     <Text is='h1' fontSize={1} mt={5} bold>What's provided?</Text>
