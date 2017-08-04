@@ -4,6 +4,7 @@ import {
   Box,
   NavLink,
   Text,
+  StickyHeading,
 } from '../components'
 
 import { FRIDAY, SATURDAY, SUNDAY } from '../schedule'
@@ -23,11 +24,12 @@ export default () => (
     </Box>
     {SCHEDULE_DAYS.map((day) => (
     <Box is='section' id={day} key={day}>
-      <Text is='h1'>{day}</Text>
+      <StickyHeading is='h1'>{day}</StickyHeading>
       {SCHEDULE[day].map((entry) => (
         <Box
           key={entry.time + entry.venue}
           mb={40}
+          pt={'1.8em'}
           id={ entry.talk }
         >
           <Text
