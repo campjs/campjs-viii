@@ -49,7 +49,7 @@ export default () => (
           { entry.note && <Text>{entry.note}</Text> }
           { entry.talk && <NavLink href={`/sessions#${entry.talk}`}>Read More</NavLink> }
           <br />
-          <SubscribeLink {...entry} />
+          { entry.start && entry.end && <SubscribeLink {...entry} /> }
         </Box>
       ))}
     </Box>
