@@ -10,4 +10,8 @@ export { default as Header } from './Header.js'
 export { default as Talk } from './Talk.js'
 export { default as Organiser } from './Organiser.js'
 export { default as Sponsor } from './Sponsor.js'
+
+export { default as StickyHeading } from './StickyHeading.js'
+
 export { default as SubscribeLink } from './SubscribeLink.js'
+
