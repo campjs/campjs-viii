@@ -18,6 +18,7 @@ const talkList = [
   talks['d3'],
   talks['wasm'],
   talks['workers'],
+  talks['typechecker'],
   talks['machine'],
   talks['unistyle'],
   talks['elm'],

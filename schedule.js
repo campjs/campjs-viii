@@ -301,6 +301,15 @@ export const SCHEDULE = {
       speaker: talks.glamorous.speaker,
     },
     {
+      time: '11:45am - 12:15pm',
+      venue: TOWER,
+      talk: 'rule',
+      title: talks.rule.title,
+      start: new Date(2017, 7, 6, 11, 45, 0),
+      end: new Date(2017, 7, 6, 12, 15, 0),
+      speaker: talks.rule.speaker,
+    },
+    {
       time: '12:00pm',
       venue: MAIN,
       title: 'Lunch',
@@ -397,6 +406,15 @@ export const SCHEDULE = {
       title: 'Informal Lightning talks / demos / workshop session',
       start: new Date(2017, 7, 6, 15, 15, 0),
       end: new Date(2017, 7, 6, 16, 15, 0),
+    },
+    {
+      time: '3:45pm - 4:15pm',
+      venue: AMPHITHEATRE,
+      talk: 'typechecker',
+      title: talks.typechecker.title,
+      start: new Date(2017, 7, 6, 15, 45, 0),
+      end: new Date(2017, 7, 6, 16, 15, 0),
+      speaker: talks.typechecker.speaker,
     },
     {
       time: '6:00pm',

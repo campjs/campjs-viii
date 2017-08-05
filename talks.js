@@ -232,6 +232,17 @@ export default {
       'In literally the best techentertainment talk of all time, you’ll learn how JavaScript - the "one true full-stack language" - inherited the Earth, and why it should a mandatory part of any civilised human’s education, along with reading, writing, and ’rithmetic. You will also become proficient in functional programming in JavaScript as a side-effect of the talk, resolve once and for all whether or not to use types in JavaScript, and learn how to build a startup from nothing to a global empire, using nothing but JavaScript and a web browser.',
     ],
   },
+  typechecker: {
+    id: 'typechecker',
+    speaker:'James Kyle',
+    twitter:'thejameskyle',
+    github:'thejameskyle',
+    title:'How to build a type checker',
+    profilePicture:'https://pbs.twimg.com/profile_images/879650512689184768/joE91luO_400x400.jpg',
+    description: [
+      'Types are everywhere, strings, booleans, numbers, objects, every value and expression in your code has a type. In JavaScript, we never really see these types until something has gone wrong. But new type checkers like Flow or TypeScript bring them front and center, letting you write these types and see things going wrong earlier on. But how do they do it? Well, we’re going to build a super tiny type checker together and see exactly how they work. It’s much simpler than you might think and you’ll learn about all sorts of data structures and patterns along the way.',
+    ],
+  },
   events: {
     id: 'events',
     speaker:'Ben O’Neal',
