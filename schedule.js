@@ -292,6 +292,15 @@ export const SCHEDULE = {
       speaker: talks.luddite.speaker,
     },
     {
+      time: '11:45am - 12:15pm',
+      venue: AMPHITHEATRE,
+      talk: 'glamorous',
+      title: talks.glamorous.title,
+      start: new Date(2017, 7, 6, 11, 45, 0),
+      end: new Date(2017, 7, 6, 12, 15, 0),
+      speaker: talks.glamorous.speaker,
+    },
+    {
       time: '12:00pm',
       venue: MAIN,
       title: 'Lunch',
