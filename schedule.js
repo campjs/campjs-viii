@@ -67,6 +67,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'iot',
       title: talks.iot.title,
+      start: new Date(2017, 7, 5, 10, 0, 0),
+      end: new Date(2017, 7, 5, 10, 30, 0),
       speaker: talks.iot.speaker,
     },
     {
@@ -74,6 +76,8 @@ export const SCHEDULE = {
       venue: COLTMAN,
       talk: 'magikcraft',
       title: talks.magikcraft.title,
+      start: new Date(2017, 7, 5, 10, 0, 0),
+      end: new Date(2017, 7, 5, 12, 0, 0),
       speaker: talks.magikcraft.speaker,
     },
     {
@@ -81,6 +85,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'functional',
       title: talks.functional.title,
+      start: new Date(2017, 7, 5, 10, 30, 0),
+      end: new Date(2017, 7, 5, 11, 0, 0),
       speaker: talks.functional.speaker,
     },
     {
@@ -88,6 +94,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'robot',
       title: talks.robot.title,
+      start: new Date(2017, 7, 5, 10, 30, 0),
+      end: new Date(2017, 7, 5, 11, 0, 0),
       speaker: talks.robot.speaker,
     },
     {
@@ -100,6 +108,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'sensor',
       title: talks.sensor.title,
+      start: new Date(2017, 7, 5, 11, 15, 0),
+      end: new Date(2017, 7, 5, 11, 45, 0),
       speaker: talks.sensor.speaker,
     },
     {
@@ -107,6 +117,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'best',
       title: talks.best.title,
+      start: new Date(2017, 7, 5, 11, 15, 0),
+      end: new Date(2017, 7, 5, 11, 45, 0),
       speaker: talks.best.speaker,
     },
     {
@@ -123,12 +135,16 @@ export const SCHEDULE = {
       time: '1:30pm - 3:00pm',
       venue: TOWER,
       title: 'Informal Lightning Talks / Demos',
+      start: new Date(2017, 7, 5, 13, 30, 0),
+      end: new Date(2017, 7, 5, 15, 0, 0),
     },
     {
       time: '1:30pm - 3:30pm',
       venue: COLTMAN,
       talk: 'threejs',
       title: talks.threejs.title,
+      start: new Date(2017, 7, 5, 13, 30, 0),
+      end: new Date(2017, 7, 5, 15, 30, 0),
       speaker: talks.threejs.speaker,
     },
     {
@@ -136,6 +152,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'events',
       title: talks.events.title,
+      start: new Date(2017, 7, 5, 13, 30, 0),
+      end: new Date(2017, 7, 5, 14, 0, 0),
       speaker: talks.events.speaker,
     },
     {
@@ -143,6 +161,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'codeScale',
       title: talks.codeScale.title,
+      start: new Date(2017, 7, 5, 14, 0, 0),
+      end: new Date(2017, 7, 5, 14, 30, 0),
       speaker: talks.codeScale.speaker,
     },
     {
@@ -150,6 +170,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'scale',
       title: talks.scale.title,
+      start: new Date(2017, 7, 5, 14, 30, 0),
+      end: new Date(2017, 7, 5, 15, 0, 0),
       speaker: talks.scale.speaker,
     },
     {
@@ -169,6 +191,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'failures',
       title: talks.failures.title,
+      start: new Date(2017, 7, 5, 15, 30, 0),
+      end: new Date(2017, 7, 5, 16, 0, 0),
       speaker: talks.failures.speaker,
     },
     {
@@ -176,6 +200,8 @@ export const SCHEDULE = {
       venue: COLTMAN,
       talk: 'async',
       title: talks.async.title,
+      start: new Date(2017, 7, 5, 15, 30, 0),
+      end: new Date(2017, 7, 5, 16, 30, 0),
       speaker: talks.async.speaker,
     },
     {
@@ -211,6 +237,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'unistyle',
       title: talks.unistyle.title,
+      start: new Date(2017, 7, 6, 10, 0, 0),
+      end: new Date(2017, 7, 6, 10, 30, 0),
       speaker: talks.unistyle.speaker,
     },
     {
@@ -218,6 +246,8 @@ export const SCHEDULE = {
       venue: COLTMAN,
       talk: 'd3',
       title: talks.d3.title,
+      start: new Date(2017, 7, 6, 10, 0, 0),
+      end: new Date(2017, 7, 6, 12, 0, 0),
       speaker: talks.d3.speaker,
     },
     {
@@ -225,6 +255,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'styled',
       title: talks.styled.title,
+      start: new Date(2017, 7, 6, 10, 30, 0),
+      end: new Date(2017, 7, 6, 11, 0, 0),
       speaker: talks.styled.speaker,
     },
     {
@@ -232,6 +264,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'machine',
       title: talks.machine.title,
+      start: new Date(2017, 7, 6, 10, 30, 0),
+      end: new Date(2017, 7, 6, 11, 0, 0),
       speaker: talks.machine.speaker,
     },
     {
@@ -244,6 +278,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'components',
       title: talks.components.title,
+      start: new Date(2017, 7, 6, 11, 15, 0),
+      end: new Date(2017, 7, 6, 11, 45, 0),
       speaker: talks.components.speaker,
     },
     {
@@ -251,6 +287,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'luddite',
       title: talks.luddite.title,
+      start: new Date(2017, 7, 6, 11, 15, 0),
+      end: new Date(2017, 7, 6, 11, 45, 0),
       speaker: talks.luddite.speaker,
     },
     {
@@ -263,6 +301,8 @@ export const SCHEDULE = {
       venue: COLTMAN,
       talk: 'styledWorkshop',
       title: talks.styledWorkshop.title,
+      start: new Date(2017, 7, 6, 13, 30, 0),
+      end: new Date(2017, 7, 6, 14, 30, 0),
       speaker: talks.styledWorkshop.speaker,
     },
     {
@@ -270,6 +310,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'payments',
       title: talks.payments.title,
+      start: new Date(2017, 7, 6, 13, 30, 0),
+      end: new Date(2017, 7, 6, 14, 0, 0),
       speaker: talks.payments.speaker,
     },
     {
@@ -277,6 +319,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'diary',
       title: talks.diary.title,
+      start: new Date(2017, 7, 6, 13, 30, 0),
+      end: new Date(2017, 7, 6, 14, 0, 0),
       speaker: talks.diary.speaker,
     },
     {
@@ -284,6 +328,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'database',
       title: talks.database.title,
+      start: new Date(2017, 7, 6, 14, 0, 0),
+      end: new Date(2017, 7, 6, 14, 30, 0),
       speaker: talks.database.speaker,
     },
     {
@@ -291,6 +337,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'phonegap',
       title: talks.phonegap.title,
+      start: new Date(2017, 7, 6, 14, 0, 0),
+      end: new Date(2017, 7, 6, 14, 30, 0),
       speaker: talks.phonegap.speaker,
     },
     {
@@ -298,6 +346,8 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'wasm',
       title: talks.wasm.title,
+      start: new Date(2017, 7, 6, 14, 30, 0),
+      end: new Date(2017, 7, 6, 15, 0, 0),
       speaker: talks.wasm.speaker,
     },
     {
@@ -305,6 +355,8 @@ export const SCHEDULE = {
       venue: TOWER,
       talk: 'electron',
       title: talks.electron.title,
+      start: new Date(2017, 7, 6, 14, 30, 0),
+      end: new Date(2017, 7, 6, 15, 0, 0),
       speaker: talks.electron.speaker,
     },
     {
@@ -312,6 +364,8 @@ export const SCHEDULE = {
       venue: COLTMAN,
       talk: 'elm',
       title: talks.elm.title,
+      start: new Date(2017, 7, 6, 14, 30, 0),
+      end: new Date(2017, 7, 6, 16, 30, 0),
       speaker: talks.elm.speaker,
     },
     {
@@ -324,12 +378,16 @@ export const SCHEDULE = {
       venue: AMPHITHEATRE,
       talk: 'workers',
       title: talks.workers.title,
+      start: new Date(2017, 7, 6, 15, 15, 0),
+      end: new Date(2017, 7, 6, 15, 45, 0),
       speaker: talks.workers.speaker,
     },
     {
       time: '3:15pm - 4:15pm',
       venue: TOWER,
       title: 'Informal Lightning talks / demos / workshop session',
+      start: new Date(2017, 7, 6, 15, 15, 0),
+      end: new Date(2017, 7, 6, 16, 15, 0),
     },
     {
       time: '6:00pm',
