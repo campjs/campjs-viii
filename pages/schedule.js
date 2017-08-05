@@ -4,7 +4,11 @@ import {
   Box,
   NavLink,
   Text,
+
   StickyHeading,
+
+  SubscribeLink,
+>
 } from '../components'
 
 import { FRIDAY, SATURDAY, SUNDAY } from '../schedule'
@@ -49,6 +53,8 @@ export default () => (
           { entry.speaker && <Text>{entry.speaker}</Text> }
           { entry.note && <Text>{entry.note}</Text> }
           { entry.talk && <NavLink href={`/sessions#${entry.talk}`}>Read More</NavLink> }
+          <br />
+          { entry.start && entry.end && <SubscribeLink {...entry} /> }
         </Box>
       ))}
     </Box>
