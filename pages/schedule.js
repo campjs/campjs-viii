@@ -4,11 +4,8 @@ import {
   Box,
   NavLink,
   Text,
-
   StickyHeading,
-
   SubscribeLink,
->
 } from '../components'
 
 import { FRIDAY, SATURDAY, SUNDAY } from '../schedule'
