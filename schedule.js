@@ -64,15 +64,6 @@ export const SCHEDULE = {
     },
     {
       time: '10:00am - 10:30am',
-      venue: AMPHITHEATRE,
-      talk: 'cmd',
-      title: talks.cmd.title,
-      start: new Date(2017, 7, 5, 10, 0, 0),
-      end: new Date(2017, 7, 5, 10, 30, 0),
-      speaker: talks.cmd.speaker,
-    },
-    {
-      time: '10:00am - 10:30am',
       venue: TOWER,
       talk: 'iot',
       title: talks.iot.title,
@@ -249,15 +240,6 @@ export const SCHEDULE = {
       start: new Date(2017, 7, 6, 10, 0, 0),
       end: new Date(2017, 7, 6, 10, 30, 0),
       speaker: talks.unistyle.speaker,
-    },
-    {
-      time: '10:00am - 10:30am',
-      venue: TOWER,
-      talk: 'jest',
-      title: talks.jest.title,
-      start: new Date(2017, 7, 6, 10, 0, 0),
-      end: new Date(2017, 7, 6, 10, 30, 0),
-      speaker: talks.jest.speaker,
     },
     {
       time: '10:00am - 12:00pm',
