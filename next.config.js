@@ -12,6 +12,7 @@ module.exports = {
       '/about': { page: '/about' },
       '/schedule': { page: '/schedule' },
       '/sessions': { page: '/sessions' },
+      '/feedback': { page: '/feedback' },
       '/get-involved': { page: '/get-involved' },
       '/call-for-speakers': { page: '/call-for-speakers' },
       '/code-of-conduct': { page: '/code-of-conduct' },
