@@ -113,7 +113,7 @@ Thanks for sponsoring video production & sending Brad Barrow. [RedBubble](https:
 Thanks for sponsoring child care. [FunCaptcha](https://www.funcaptcha.com/)
 
 
-![Mozilla Logo](http://viii.campjs.com/static/sponsors/mozilla.svg)
+![Mozilla Logo](http://viii.campjs.com/static/sponsors/mozilla.png)
 
 Thanks for sponsoring the buses. [Mozilla](https://www.mozilla.org/)
 
