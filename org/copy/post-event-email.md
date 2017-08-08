@@ -2,9 +2,9 @@ Hello Campers,
 
 Thank you so much for coming. I hope you all had an amazing time.
 
-## Feedback
+## Comments, Questions, Concerns, and Kudos
 
-CampJS is always striving to be better. Your feedback is extremely valuable so please consider leaving some anonymous or non
+CampJS is always striving to be better. Your feedback is extremely valuable so please consider leaving some, anonymous or not.
 
 http://viii.campjs.com/feedback/
 
@@ -18,9 +18,11 @@ Please share your photos of CampJS. Either add them to this shared album or post
 
 https://goo.gl/photos/k5hpvHyQpGixz7X16
 
+Professional photos & session videos will be shared soon.
+
 ## CampJS IX
 
-Next CampJS is in Queensland (we swap between NSW, VIC & QLD). No exact date has been locked in yet as we are trying to coordinate with another exciting tech event that might be happening in April 2018.
+Next CampJS is in Queensland (we swap between NSW, VIC & QLD). No exact date has been locked in yet as we are trying to coordinate with another exciting tech event that might be happening in March/April 2018.
 
 Follow https://twitter.com/campjsnews for announcements.
 
